@@ -102,14 +102,15 @@ a:hover{
         background: #232526;
         background: -webkit-linear-gradient(to right, #414345, #232526);background: linear-gradient(to right, #414345, #232526); 
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         margin: 0;
         padding: 0;
-        height: auto;
+        height: max-content;
         font-size: 11px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 150px;
     }
     .container {
         width: 50%;
