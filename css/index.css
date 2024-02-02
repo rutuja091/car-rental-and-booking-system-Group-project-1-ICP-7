@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.main-section{
+    margin-top: 100px;
+   width: 100%;
+    border: solid 2px black;
+    
+
+}
+@media screen and (max-width:600px){
+    .main-section{
+        width:100%;
+    }
+}
+
+.img-section{
+    height: 800px;
+    width: 100%;
+    border: solid red 2px;
+
+}
+.img-section p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    
+    font-weight: 900;
+
+}
+.yellow-taxi{
+    height: 600px;
+    float: right;
+
+}
+.book-btn{
+    margin-top:500px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:390px){
+    .box{
+        flex-wrap: wrap;
+    }
+}
+
+.box{
+    cursor: pointer;
+    height: 200px;
+    width: 400px;
+    background-color: gold;
+    border-radius: 30px;
+    margin: -80px 20px;
+}
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px 2px black;
+
+    transition: 1s;
+}
+.content{
+    background-color: black;
+}
+span{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+.btn{
+    display: flex;
+    justify-content:center;
+}
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px; 
+    width: 150px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #ff0000;
+    border: none;   
+}
+ a{
+    text-decoration: none;
+    color :white
+}
+.button:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+p{
+    text-align: center;
+}
+.sign-in{
+    margin-right: ;
+
+}
