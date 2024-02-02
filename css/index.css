@@ -20,13 +20,24 @@ body{
 .img-section{
     height: 800px;
     width: 100%;
-    border: 2px solid gold;
+    border: solid red 2px;
+
+}
+.img-section p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    
+    font-weight: 900;
+
 }
 .yellow-taxi{
-    margin-left:280px;
-    margin-top: 50px;
     height: 600px;
-   
+    float: right;
+
+}
+.book-btn{
+    margin-top:500px;
 }
 .boxes{
     display: flex;
@@ -39,6 +50,7 @@ body{
 }
 
 .box{
+    cursor: pointer;
     height: 200px;
     width: 400px;
     background-color: gold;
@@ -48,6 +60,7 @@ body{
 .box:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 10px 2px black;
+
     transition: 1s;
 }
 .content{
@@ -61,17 +74,33 @@ span{
 }
 .btn{
     display: flex;
-    justify-content: center; 
+    justify-content:center;
 }
 .button{
-    margin: 200px;
-    background-color: white;
-    border: solid 2px rgb(255, 0, 0);
-    height: 50px;
-    width: 200px;
-    border-radius: 30px;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 20px; 
+    width: 150px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #ff0000;
+    border: none;   
+}
+ a{
+    text-decoration: none;
+    color :white
+}
+.button:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 p{
     text-align: center;
+}
+.sign-in{
+    margin-right: ;
+
 }
