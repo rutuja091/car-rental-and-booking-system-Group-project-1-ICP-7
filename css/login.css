@@ -97,3 +97,37 @@ a{
 a:hover{
     text-decoration: un;
 }
+@media screen and (max-width: 655px){
+    body{
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);background: linear-gradient(to right, #414345, #232526); 
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        font-size: 11px;
+    }
+    .container {
+        width: 50%;
+        width: fit-content;
+        display: inline-block;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+    .box-1{
+        order: 1;
+        height: auto;
+    }
+    .box-1 img{
+        height: 100%; 
+        width: 100%;
+    }
+    .box-2{
+        
+        display: inline-block;
+        background-color:  black;
+        border-radius: 0px 36px 0 0px;
+    }
+ 
+}
