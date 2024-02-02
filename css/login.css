@@ -107,27 +107,33 @@ a:hover{
         padding: 0;
         height: auto;
         font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .container {
         width: 50%;
         width: fit-content;
         display: inline-block;
         margin-bottom: 10px;
+        border-radius: 40px;
         /* text-align: center; */
     }
     .box-1{
         order: 1;
         height: auto;
+        border-radius: 36px 36px 0px 0px;
     }
     .box-1 img{
         height: 100%; 
         width: 100%;
+        border-radius: 36px 36px 0px 0px;
     }
     .box-2{
-        
+        margin: 0;
         display: inline-block;
         background-color:  black;
-        border-radius: 0px 36px 0 0px;
+        border-radius: 0px 0px 36px 36px ;
     }
  
 }
