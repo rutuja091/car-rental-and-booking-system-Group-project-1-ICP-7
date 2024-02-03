@@ -156,3 +156,16 @@ body{
 .forms .form-content .button input:hover{
     background: #777;
 }
+
+.forms .form-content label{
+    color: #000;
+    cursor: pointer;
+}
+.forms .form-content label:hover{
+    text-decoration: underline;
+}
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
+    text-align: center;
+    margin-top: 25px;
+}
