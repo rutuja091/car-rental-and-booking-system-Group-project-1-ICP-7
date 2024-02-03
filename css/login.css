@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:  0;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);background: linear-gradient(to right, #414345, #232526); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100cqh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+    
+.container{
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 0px 40px;
+    width: 50%;
+    display:flex;
+    z-index: 1;
+    width: fit-content;
+
+}
+
+.box-1 img{
+    width: 100%;
+}
+.box-2{
+    display: block;
+    height: auto ;
+    padding: 50px 100px;
+    max-width: 80%;
+    background-color:  black;
+    border-radius: 0px 36px 0 0px;
+}
+.login-form {
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.959); 
+    background-color: #000000;
+}
+.login-form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.login-form form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form form .input-square{
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+}
+
+span input{
+    cursor: pointer;
+}
+
+.Forgot {
+    font-weight:  normal;
+    font-size: 13px;
+    margin-top: 10px;
+    float: left;
+}
+
+.login-form form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+} 
+.login-form form button:hover {
+    background-color: #555;
+}
+a{
+    text-decoration: none;
+    color:royalblue;
+}
+a:hover{
+    text-decoration: un;
+}
+@media screen and (max-width: 655px){
+    body{
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);background: linear-gradient(to right, #414345, #232526); 
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        font-size: 11px;
+    }
+    .container {
+        width: 50%;
+        width: fit-content;
+        display: inline-block;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+    .box-1{
+        order: 1;
+        height: auto;
+    }
+    .box-1 img{
+        height: 100%; 
+        width: 100%;
+    }
+    .box-2{
+        
+        display: inline-block;
+        background-color:  black;
+        border-radius: 0px 36px 0 0px;
+    }
+ 
+}
