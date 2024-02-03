@@ -172,3 +172,28 @@ body{
 .container #flip{
     display: none;
 }
+
+@media (max-width: 730px) {
+    body{
+        font-size: small;
+    }
+    .container .cover{
+        display: none;
+    }
+    .form-content .login-form,
+    .form-content .signup-form{
+        width: 100%;
+    }
+    .form-content .signup-form{
+        display: none;
+    }
+    .container #flip:checked ~ .forms .signup-form{
+        display: block;
+    }
+    .forms .form-content .title{
+        margin: 15%;
+    }
+    .container #flip:checked ~ .forms .login-form{
+        display: none;
+    }
+}
