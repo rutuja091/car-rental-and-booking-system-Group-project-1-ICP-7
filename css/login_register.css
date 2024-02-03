@@ -62,7 +62,20 @@ body{
    height: 100%;
    width: 100%;
    object-fit: cover;
-   z-index: 10;
    border-radius: 20px;
+}
 
+.container .forms{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+.container .form-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-content .login-form,
+.form-content .signup-form{
+    width: calc(100% / 2 - 25px);
 }
