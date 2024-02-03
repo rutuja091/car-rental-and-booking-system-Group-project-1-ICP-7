@@ -79,3 +79,18 @@ body{
 .form-content .signup-form{
     width: calc(100% / 2 - 25px);
 }
+.forms .form-content .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #888888, #232526); 
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 3px 4px 10px 2px black;
+  
+}
