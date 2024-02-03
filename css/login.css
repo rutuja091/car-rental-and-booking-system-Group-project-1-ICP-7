@@ -30,17 +30,16 @@ body{
     border-radius: 20px;
 }
 
-.box-1 img{
-    width: 100%;
+.container .cover{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    z-index: 90;
+    transform-origin: left;
 }
-.box-2{
-    display: block;
-    height: auto ;
-    padding: 50px 100px;
-    max-width: 80%;
-    background-color:  black;
-    border-radius: 0px 36px 0 0px;
-}
+
 .login-form {
     padding: 20px;
     color: #ffffff;
