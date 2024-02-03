@@ -40,13 +40,10 @@ body{
     transform-origin: left;
 }
 
-.login-form {
-    padding: 20px;
-    color: #ffffff;
-    border-radius: 30px;
-    box-shadow: 0px 0px 18px 0px rgba(255, 255, 255, 0.959); 
-    background-color: #000000;
+.container #flip:checked ~ .cover{
+    transform: rotateY(-180deg);
 }
+
 .login-form h1{
     text-align: center;
     margin-bottom: 20px;
