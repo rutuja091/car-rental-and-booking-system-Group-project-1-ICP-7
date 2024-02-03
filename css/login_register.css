@@ -126,3 +126,14 @@ body{
     color: #000;
     font-size: 17px;
 }
+.forms .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.forms .form-content .text a{
+    text-decoration: none;
+}
+.forms .form-content .text a:hover{
+    text-decoration: underline;
+}
