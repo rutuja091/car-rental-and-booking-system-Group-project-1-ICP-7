@@ -169,3 +169,6 @@ body{
     text-align: center;
     margin-top: 25px;
 }
+.container #flip{
+    display: none;
+}
