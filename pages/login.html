@@ -9,61 +9,41 @@
     </head>
     <body>
         <div class="container">
-            <div class="box-1">
-                <img src="./../images/login_page/City driver.gif"
-                    alt="car-image">
+            <input type="checkbox" id="flip">
+            <div class="cover">
+                <div class="front">
+                    <img src="./../Images/City driver.gif" alt>
+                </div>
             </div>
-            <div class="box-2">
-                <div class="login-form">
-                    <h1>Login</h1>
-                    <form>
-                        <label for="username">Email</label>
-                        <input
-                            class="input-square"
-                            type="text"
-                            id="username"
-                            name="username"
-                            required
-                            placeholder="Email*">
-                        <label for="password">Password</label>
-                        <input
-                            class="input-square"
-                            type="password"
-                            id="password"
-                            name="password"
-                            required
-                            placeholder="Password*">
-                        <span>
-                            <input type="checkbox" name="remember"
-                                id="remember">
-                            <label for="remember">Remember me</label>
-                            <br>
-                            <span class="Forgot">
-                                <b>
-                                    <a href="#">
-                                        Forgot
-                                        Username/Password
-                                    </a>
-                                </b>
-                            </span>
-                        </span>
-                        <br>
-                        <br>
-                        <button class="login-btn" type="submit">Login</button>
-                    </form>
-                    <br>
-                    <br>
-                    <hr>
-                    <br>
-                    <p style="text-align: center;">
-                        <b>
-                            Doesn't have an account?
-                            <a href="signup_page.html" target="_blank">
-                                Sign
-                                Up!
-                            </a>
-                        </b>
-                    </p>
+            <div class="forms">
+                <div class="form-content">
+                    <div class="login-form">
+                        <div class="title">LOGIN</div>
+                        <form action="#">
+                            <div class="input-boxes">
+                                <div class="input-box">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="text" placeholder="Enter your email" required>
+                                </div>
+                                <div class="input-box">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" placeholder="Enter your password" required>
+                                </div>
+                                <div class="text">
+                                    <a href="#">Forgot password?</a>
+                                </div>
+                                <div class="button input-box">
+                                    <input type="submit" value="Login">
+                                </div>
+                                <div class="text sign-up-text">
+                                    Don't have an
+                                    account?
+                                    <label for="flip">Register now!</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
                 </div>
             </div>
         </div>
