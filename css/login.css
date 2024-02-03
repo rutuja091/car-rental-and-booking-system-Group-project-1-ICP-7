@@ -20,14 +20,14 @@ body{
 }
     
 .container{
-    background-color: #fff;
-    border: 3px solid black;
-    border-radius: 0px 40px;
-    width: 50%;
-    display:flex;
-    z-index: 1;
-    width: fit-content;
-
+    position: relative;
+    max-width: 850px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    perspective: 2700px;
+    border-radius: 20px;
 }
 
 .box-1 img{
