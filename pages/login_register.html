@@ -49,19 +49,25 @@
                             <div class="input-boxes">
                                 <div class="input-box">
                                     <i class="fas fa-user"></i>
-                                    <input type="text" placeholder="Enter your name" required>
+                                    <input type="text" name="User_name" placeholder="Enter your name" required>
                                 </div>
                                 <div class="input-box">
                                     <i class="fas fa-envelope"></i>
-                                    <input type="email" placeholder="Enter your email" required>
+                                    <input type="email" name="email" placeholder="Enter your email" required>
                                 </div>
                                 <div class="input-box">
                                     <i class="fas fa-birthday-cake"></i>
-                                    <input type="date" placeholder="Enter your DOB" required>
+                                    <input type="date" name="DOB" placeholder="Enter your DOB" required>
                                 </div>
                                 <div class="input-box">
                                     <i class="fas fa-lock"></i>
-                                    <input type="password" placeholder="Enter your password" required>
+                                    <input type="password"  name="password" placeholder="Enter your password" required>
+                                </div>
+                                
+                                </div>
+                                <div class="input-box">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" name="confirm_password" placeholder="Confirm  your password" id="confirm_password" required data-match="#password">
                                 </div>
                                 <div class="text">
                                     <input type="checkbox" id="agreement" name="agreement" required>
