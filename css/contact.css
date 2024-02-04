@@ -6,8 +6,8 @@
 body{
    width:100;
    min-height:100vh;
-   background-color:#232526;
-   color:white;
+   background-color: #232526;
+   color: #fff;
 }
 .container{
    width:100%;
@@ -28,4 +28,104 @@ body{
 .row section.col{
    display:flex;
    flex-direction:column;
+}
+.row section.left{
+   flex-basis:35%;
+   min-width:320px;
+   margin-right:60px;
+  
+}
+.row section.right{
+  flex-basis:60%; 
+  background-color:lightgreen;
+}
+section.left .contactTitle h2{
+   position:relative;
+   font-size:30px;
+   color: #fff;
+   display:inline-block;
+   margin-bottom:25px;
+}
+section.left .contactTitle h2::before{
+   content:'';
+   position:absolute;
+   width:50px;
+   height:1px;
+   background-color:#fff;
+   top:120%;
+   left:0;
+
+}
+section.left .contactTitle h2::after{
+   content:'';
+   position:absolute;
+   width:25%;
+   height:3px;
+   background-color:#000000;
+   top:calc(120% - 1px);
+   left:0;
+}
+section.left .contactTitle p{
+font-size:17px;
+color:ccc;
+letter-spacing:1px;
+line-height:1.2;
+padding-bottom:22px;
+}
+section.left .contactInfo{
+margin-bottom:16px;
+}
+.contactInfo .iconGroup{
+   display:flex;
+   align-items:center;
+   margin:25px 0px;
+}
+.iconGroup .icon{
+   width:45px;
+   height:45px;
+   border:2px solid #fff;
+   border-radius:50%;
+   margin-right:20px;
+   position:relative;
+}
+.iconGroup .icon i{
+   font-size:20px;
+   color:#fff;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+.iconGroup .details span{
+   display:block;
+   color:#888;
+   font-size:18px;
+}
+.iconGroup .details span:nth-child(1){
+  text-transform:uppercase;
+  color:#fff; 
+}
+section.left .socialMedia{
+   display:flex;
+   justify-content:flex-start;
+   align-items:center;
+   flex-wrap:wrap;
+   margin:22px 0px 20px;  
+}
+.socialMedia a{
+   width:35px;
+   height:35px;
+   text-decoration:none;
+   text-align:center;
+   margin-right:15px;
+   border-radius:5px;
+   background-color:#fff;
+   transition:0.4s;
+}
+.socialMedia a i{
+   color:#000000;
+   font-size:18px;
+   line-height:35px;
+   border:1px solid transparent;
+   transition-delay:0.4s;
 }
