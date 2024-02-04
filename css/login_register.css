@@ -143,11 +143,13 @@ body{
 .forms .form-content .button input{
 
     color: #fff;
+    font-size: large;
     background: #232526;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
+    height: 50px;
     max-width: 50%;
-    margin-left: 25%;
+    margin: 0px 25%;
     cursor: pointer;
     transition: all 0.4s ease;
 }
@@ -181,7 +183,14 @@ body{
     .form-content .login-form,
     .form-content .signup-form{
         width: 100%;
+        
     }
+    .forms .form-content .input-box, 
+    .forms .form-content  .input-box #agreement  {
+        margin: 10px 20px;
+        width: auto;
+    }
+
     .form-content .signup-form{
         display: none;
     }
