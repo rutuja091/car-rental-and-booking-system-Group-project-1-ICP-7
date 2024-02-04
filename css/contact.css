@@ -1,0 +1,27 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+   width:100;
+   min-height:100vh;
+   background-color:#232526;
+   color:white;
+}
+.container{
+   width:100%;
+   min-height:100vh;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:30px 8%;
+   
+}
+.container .row
+{
+   display:flex;
+   justify-content: space-between;
+   width:100%;
+   max-width:1100px;
+}
