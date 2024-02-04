@@ -129,3 +129,14 @@ section.left .socialMedia{
    border:1px solid transparent;
    transition-delay:0.4s;
 }
+.socialMedia a:hover{
+   transform:translateY(-3px);
+   background-color:#000000;
+
+   border:1px solid #fff;
+}
+.socialMedia a:hover i{
+   color:#fff;
+
+
+}
