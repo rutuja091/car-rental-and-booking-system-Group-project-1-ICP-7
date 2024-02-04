@@ -25,3 +25,7 @@ body{
    width:100%;
    max-width:1100px;
 }
+.row section.col{
+   display:flex;
+   flex-direction:column;
+}
