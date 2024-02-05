@@ -38,6 +38,7 @@ body{
 }
 .book-btn{
     margin-top:500px;
+    background-color: black;
 }
 .boxes{
     display: flex;
