@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 
+*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 * {
   box-sizing: 0;
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat";
 }
 
 body {
@@ -20,16 +20,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
-/*.container .contact_data {
-  background: #fff;
-  width: 600px;
-  border-radius: 02px;
-  border-top: 04px solid #232526; ;
-  margin: 0 10px;
-  border-radius:px;
-}*/
+
 
 
 .container .contact_data  {
@@ -37,7 +31,7 @@ body {
    border-radius: 02px;
    border-top: 04px solid #232526;
    width: 500px;
-   height:700px;
+   height:600px;
    margin: 0 10px;
    border-radius:10px 10px;
  
@@ -50,7 +44,7 @@ body {
 
 .container .contact_data form input,
 textarea {
-  width: 95%;
+  width: 90%;
   margin: 05px 0 0 10px;
   padding: 07px 10px;
   border: 1px solid #232526;
@@ -80,6 +74,7 @@ textarea {
   border-radius: 05px;
   cursor: pointer;
   transition: all 0.3s;
+  font-family:"Montserrat";
 }
 
 .container .contact_data button:hover {
@@ -94,7 +89,7 @@ textarea {
   border-radius: 02px;
   border-top: 04px solid #232526;
   width: 400px;
-  height:700px;
+  height:600px;
   margin: 0 10px;
   border-radius:10px 10px;
 
@@ -125,11 +120,11 @@ textarea {
 
 .container .contact_data2 .map iframe {
   width: 90%;
-  height: 280px;
+  height: 250px;
   margin: 0 1rem;
 }
 
-@media (max-width: 1037px) {
+@media (max-width: 768px) {
   .container .contact_data,
   .contact_data2 {
     width: 80%;
@@ -148,4 +143,43 @@ textarea {
   .container .contact_data h2 {
     width: 50%;
   }
+}
+
+
+.sociadMedia{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:22px 0px 20px;  
+  margin-left:25%;
+}
+
+.sociadMedia a{
+  width:35px;
+  height:35px;
+  text-decoration:none;
+  text-align:center;
+  margin-right:15px;
+  border-radius:5px;
+  background-color:#000000;
+  transition:0.4s;
+}
+.sociadMedia a i{
+  color:#fff;
+  font-size:18px;
+  line-height:35px;
+  border:1px solid transparent;
+  transition-delay:0.4s;
+}
+
+.sociadMedia a:hover{
+   transform:translateY(-3px);
+   background-color:#fff;
+   
+   border:1px solid #000000;
+}
+.sociadMedia a:hover i{
+  color:#000000;
+
 }
