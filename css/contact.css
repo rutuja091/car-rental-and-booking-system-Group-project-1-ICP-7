@@ -219,3 +219,14 @@ textarea::-webkit-scrollbar-thumb{
    box-shadow:0px 8px 15px rgba(0,0,0,0.3);
    border:1px solid #fff;
 }
+@media(max-width:1100px){
+   .messageForm .halfWidth{
+      flex-basis:100%;
+
+   }
+}
+@media(max-width:900px){
+   .container .row{
+      flex-wrap:wrap;
+   }
+}
