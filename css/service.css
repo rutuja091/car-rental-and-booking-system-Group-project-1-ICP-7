@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Pacifico&display=swap');
 
 body {
-    background-color: #f2f2f2;
+    background-color:#232526;
 }
 
 .nav-bar {
@@ -153,3 +153,68 @@ body {
       
 
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
+
+
+@media(max-width:900px){
+
+
+  .text {
+     flex-wrap:wrap;
+    font-size: small;
+    justify-content:center;
+  }
+}
+ 
+.body{
+    margin:0;
+    padding:0;
+    background-color:#232526;
+    }
+  
+  .service{
+    text-align: center;
+    color:antiquewhite;
+  }
+
+.text{
+  display:flex;
+}
+.single_services{
+  background-color:#fff;
+  margin-left:30px;
+  height: 550px;
+  width:500px;
+  border-radius:1px solid black;
+  text-align: center;
+  margin-top: 70px;
+ border-radius:5% ;
+ box-shadow: 2px 2px 5px 10px  grey /*rgb(138,136,1360)*/;
+
+}
+
+.single_services2{
+    background-color:#fff;
+    margin-left:30px;
+    height: 550px;
+    width:500px;
+    border-radius:1px solid black;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 20px;
+    border-radius:5% ;
+    box-shadow: 2px 2px 5px 10px  grey /*rgb(138,136,1360)*/;
+  
+  }
+  .btn {
+    color: #fff;
+    background: #232526;
+    height: 60px;
+    width: 90px;  
+  }
+   
+  .btn:hover {
+    transform: scale(1.1);
+  }
