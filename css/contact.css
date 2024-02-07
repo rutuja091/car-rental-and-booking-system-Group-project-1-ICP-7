@@ -70,7 +70,7 @@ body {
   border-radius: 05px;
   cursor: pointer;
   transition: all 0.3s;
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container .contact_data button:hover {
@@ -78,6 +78,11 @@ body {
   transition: 0.3s;
   color: #232526;
   border:1px solid   #232526;
+
+
+
+
+
 }
 
 .container .contact_data2 {
@@ -196,4 +201,7 @@ body {
 .links{
   color:#000000;
   text-decoration: none;
+}
+.map iframe{
+  box-shadow:  0px 0px 10px 1px black;
 }
