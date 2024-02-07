@@ -106,13 +106,13 @@ body {
   font-size: 1.4rem;
   color: #232526;
 }
-#location:hover{
+#location{
   color:crimson;
 }
-#email:hover{
+#email{
   color:blue;
 }
-#call:hover{
+#call{
   color:green;;
 }
 
