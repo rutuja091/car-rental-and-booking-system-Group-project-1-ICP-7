@@ -112,7 +112,9 @@ body {
 #email:hover{
   color:blue;
 }
-
+#call:hover{
+  color:green;;
+}
 
 
 .container .contact_data2 ul li strong {
