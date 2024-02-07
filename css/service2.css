@@ -56,6 +56,7 @@ body{
 }
 .img{
   border-radius:1px solid black;
+  border-radius:30px;
 }
 
 
@@ -72,12 +73,14 @@ body{
   .btn {
     font-size: 16px;
     width: 163px;
-    height: 48px;
+    height: 38px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     letter-spacing: 1px;
     border: none;
     border-radius: 23px;
+    margin-top:0px;
+    margin-bottom: 10px;
   }
   .btn {
     color: #fff;
