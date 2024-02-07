@@ -7,13 +7,13 @@ body{
 .main-section{
     margin-top: 100px;
    width: 100%;
-    border: solid 2px black;
+    border: solid 2px rgb(0, 34, 255);
     
 
 }
 @media screen and (max-width:600px){
     .main-section{
-        width:100%;
+       width: 100%;
     }
 }
 
@@ -36,6 +36,12 @@ body{
     float: right;
 
 }
+@media screen and (max-width:600px){
+    .yellow-taxi{
+        height: 200px;
+    }
+}
+
 .book-btn{
     margin-top:500px;
     background-color: black;
@@ -57,6 +63,16 @@ body{
     background-color: gold;
     border-radius: 30px;
     margin: -80px 20px;
+}
+@media screen and (max-width:600px){
+    .box{
+        cursor: pointer;
+    height: 100px;
+    width: 200px;
+    background-color: gold;
+    border-radius: 30px;
+    margin: -80px auto;
+    }
 }
 .box:hover{
     transform: scale(1.1);
@@ -101,7 +117,4 @@ span{
 p{
     text-align: center;
 }
-.sign-in{
-    margin-right: ;
 
-}
