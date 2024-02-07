@@ -4,7 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Pacifico&display=swap');
 
 body {
+<<<<<<< HEAD
+    background-color: #ffffff;
+=======
     background-color:#232526;
+>>>>>>> b0bf9b1ab6c2b35a463f005d9f9ca86d019e07d6
 }
 
 .nav-bar {
@@ -17,7 +21,7 @@ body {
     left: 0px;
     right: 0px;
     z-index: 99;
-    box-shadow: 0 0px 1000px 0px #403e3e;
+    box-shadow: 0 -5px 90px 5px #a3a3a3;
 
 }
 
@@ -68,7 +72,7 @@ body {
 }
 
 .book-btn {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Acme', sans-serif;
     color: black;
@@ -102,7 +106,7 @@ body {
     margin: 30px;
     transition: all .4s ease-in-out;
     color: black;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 
 
 }
