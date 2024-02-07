@@ -170,14 +170,28 @@ body {
 }
 
 .sociadMedia a:hover{
-   transform:translateY(-3px);
+   transform:translateY(-2px);
    background-color:#fff;
    
    border:1px solid #000000;
 }
-.sociadMedia a:hover i{
+/*.sociadMedia a:hover i{
   color:#000000;
 
+}
+*/
+
+.fa-youtube:hover{
+  color:red;
+}
+.fa-instagram:hover{
+  color:crimson;
+}
+.fa-github:hover{
+  color: black;
+}
+.fa-linkedin-in:hover{
+  color:blue;
 }
 .links{
   color:#000000;
