@@ -32,6 +32,7 @@ body {
    height:600px;
    margin: 0 10px;
    border-radius:10px 10px;
+   padding:10px 10px;
  }
 
   /*second card form css*/
@@ -91,7 +92,7 @@ body {
   height:600px;
   margin: 0 10px;
   border-radius:10px 10px;
-
+  padding:10px 10px;
 }
 
 .container .contact_data2 ul {
@@ -99,12 +100,13 @@ body {
 }
 
 .container .contact_data2 ul li {
-  margin: 1.5rem 1rem;
+  margin: 25px;
 }
 
 .container .contact_data2 ul li i {
-  font-size: 1.4rem;
+  font-size: 25px;
   color: #232526;
+  
 }
 #location{
   color:crimson;
@@ -193,7 +195,9 @@ body {
 
 .map iframe{
   box-shadow:  0px 0px 10px 1px black;
+ 
 }
+
 
 /*end css social media icons hover effect*/
 
