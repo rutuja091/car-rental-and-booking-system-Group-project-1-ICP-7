@@ -1,10 +1,11 @@
 
-*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
+
 * {
   box-sizing: 0;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   max-width: 100%;
   height: 100vh;
 }
-
 .container {
   width: 100%;
   height: 100vh;
@@ -21,11 +21,9 @@ body {
   justify-content: center;
   align-items: center;
   
+
 }
-
-
-
-
+/*Start second card css*/
 .container .contact_data  {
    background: #fff;
    border-radius: 02px;
@@ -34,11 +32,10 @@ body {
    height:600px;
    margin: 0 10px;
    border-radius:10px 10px;
- 
  }
- 
 
-.container .contact_data form {
+  /*second card form css*/
+ .container .contact_data form {
   padding: 0 1rem;
 }
 
@@ -50,9 +47,6 @@ body {
   font-size: 1rem;
   border-radius: 05px;
 }
-
-
-
 
 .container .contact_data h2 {
   margin: 1.5rem;
@@ -73,10 +67,10 @@ body {
   background: #232526;
   color:#fff;
   font-size: 1rem;
-  border-radius: 05px;
+  border-radius: 23px;
   cursor: pointer;
   transition: all 0.3s;
-  font-family:"Montserrat";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container .contact_data button:hover {
@@ -86,6 +80,9 @@ body {
   border:1px solid   #232526;
 }
 
+/*end second card css*/
+
+/*start first card css*/
 .container .contact_data2 {
   background: #fff;
   border-radius: 02px;
@@ -118,6 +115,7 @@ body {
 .container .contact_data2 ul li p {
   font-size: 14px;
   margin-left: 35px;
+  margin-top: 10px;
 }
 
 .container .contact_data2 .map iframe {
@@ -125,6 +123,75 @@ body {
   height: 250px;
   margin: 0 1rem;
 }
+/*start css for social media icons*/
+.sociadMedia{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:22px 0px 20px;  
+  margin-left:25%;
+}
+
+.sociadMedia a{
+  width:35px;
+  height:35px;
+  text-decoration:none;
+  text-align:center;
+  margin-right:15px;
+  border-radius:5px;
+  background-color:#000000;
+  transition:0.4s;
+}
+
+.sociadMedia a i{
+  color:#fff;
+  font-size:18px;
+  line-height:35px;
+  border:1px solid transparent;
+  transition-delay:0.4s;
+}
+/*end css for social media icons*/
+
+/*start css social media icons hover effect*/
+.sociadMedia a:hover{
+   transform:translateY(-2px);
+   background-color:#fff;
+   border:1px solid #000000;
+}
+
+.fa-youtube:hover{
+  color:red;
+}
+
+.fa-instagram:hover{
+  color:crimson;
+}
+
+.fa-github:hover{
+  color: black;
+}
+
+.fa-linkedin-in:hover{
+  color:blue;
+}
+
+.links{
+  color:#000000;
+  text-decoration: none;
+}
+
+.map iframe{
+  box-shadow:  0px 0px 10px 1px black;
+}
+
+/*end css social media icons hover effect*/
+
+
+/* End first card css*/
+
+
+/*-----start media query-----*/
 
 @media (max-width: 768px) {
   .container .contact_data,
@@ -147,41 +214,4 @@ body {
   }
 }
 
-
-.sociadMedia{
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  flex-wrap:wrap;
-  margin:22px 0px 20px;  
-  margin-left:25%;
-}
-
-.sociadMedia a{
-  width:35px;
-  height:35px;
-  text-decoration:none;
-  text-align:center;
-  margin-right:15px;
-  border-radius:5px;
-  background-color:#000000;
-  transition:0.4s;
-}
-.sociadMedia a i{
-  color:#fff;
-  font-size:18px;
-  line-height:35px;
-  border:1px solid transparent;
-  transition-delay:0.4s;
-}
-
-.sociadMedia a:hover{
-   transform:translateY(-3px);
-   background-color:#fff;
-   
-   border:1px solid #000000;
-}
-.sociadMedia a:hover i{
-  color:#000000;
-
-}
+/*-----start media query-----*/

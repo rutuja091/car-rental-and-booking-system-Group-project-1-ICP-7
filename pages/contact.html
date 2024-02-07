@@ -10,39 +10,48 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
   />
-    <title>Responsive Contact Us Page in HTML and CSS</title>
+    <title>Contact Us</title>
   </head>
   <body>
-    <div class="container">
+
+       <div class="container">
+        <!--start first card-->
       <div class="contact_data2">
-       
+
+         <!--start address call and email part -->
         <ul>
-        
           <li>
-            <i class="fa-solid fa-location-dot"></i>
+            <a href=https://maps.app.goo.gl/rUoSC6S7X4UtsiuM7 class="links">
+              <i class="fa-solid fa-location-dot"></i>
             <strong>Location:</strong>
-            <p>Maharashtra ,India</p>
-          </li>
-          <li>
+            <p>1288/567, New Nandanvan Colony, Nandanvan, Nagpur, Maharashtra 440024</p></a>
+           </li>
+           <li>
+            <a href="mailto:journeyjet@gmail.com" class="links">
             <i class="fa-solid fa-envelope"></i>
             <strong>Email:</strong>
-            <p>journeyjet@gmail.com</p>
+            <p>journeyjet@gmail.com</p></a>
           </li>
           <li>
+            <a href="tel:+00 000 000 00" class="links">
             <i class="fa-solid fa-phone"></i>
-            <strong>Call:</strong>
-            <p>+00 000 000 00</p>
+             <strong>Call:</strong>
+            <p>+91 000 000 0000</p></a>
           </li>
-        </ul>
+         </ul>
+          <!--end address call and email part -->
        
             <!--social meaia starts-->
             <span class="sociadMedia" >
-              <a href="" class=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
-              <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
-              <a href="" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+            
+             <a href="http://youtube.com/@roadtocode4u" class=""><i class="fa-brands fa-youtube"></i></a>
+              <a href="http://github.com/rutuja091" class=""><i class="fa-brands fa-github"></i></a>
+              <a href="http://instagram.com/roadtocode4u" class=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="http://linkedin.com/company/roadtocode" class=""><i class="fa-brands fa-linkedin-in"></i></a>
             </span>
           <!--social media end-->
+
+          <!--start map part-->
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14886.020615180501!2d79.1208889!3d21.1322859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c72f6cfd177b%3A0x89fad83f168449e1!2sRoad%20To%20Code!5e0!3m2!1sen!2sin!4v1707145073248!5m2!1sen!2sin"
            width="600" height="450" 
@@ -51,21 +60,28 @@
            referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+        <!--end map part -->
       </div>
+
+      <!--end first card-->
+
+      <!--start second card-->
       <div class="contact_data">
         <h2>Connect With Us</h2>
         <form action="#">
           <label for="">Name</label>
-          <input type="text" />
+          <input type="text"/>
           <label for="">Email</label>
-          <input type="email" />
+          <input type="email"/>
           <label for="">Subject</label>
-          <input type="text" />
+          <input type="text"/>
           <label for="">Message</label>
           <textarea name="" id="" cols="30" rows="05"></textarea>
           <button>Send Message</button>
         </form>
       </div>
+      <!--end second card-->
+
     </div>
   </body>
 </html>
