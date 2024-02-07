@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 
-* {
+*{
   box-sizing: 0;
   padding: 0;
   margin: 0;
@@ -106,6 +106,7 @@ body {
   font-size: 1.4rem;
   color: #232526;
 }
+
 
 .container .contact_data2 ul li strong {
   margin-left: 10px;
