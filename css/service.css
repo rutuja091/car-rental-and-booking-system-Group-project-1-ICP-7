@@ -219,8 +219,14 @@ body {
   background-color: #232526;
 }
 
+text{
+  display:flex;
+}
+
+.img{
   height: 550px;
   width: 500px;
   border-radius: 1px solid black;
   text-align: center;
   margin-top: 70px;
+}
