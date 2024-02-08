@@ -172,6 +172,7 @@ body{
     font-weight: 900;
     margin-left: 0;
 }
+
 .review{
     display: flex;
     justify-content: center;
@@ -188,4 +189,8 @@ body{
 }
 .vehicle{
     height:300px;
+}
+.vehicle:hover{
+    transform: scale(1.050);
+    transition: 0.5s;
 }
