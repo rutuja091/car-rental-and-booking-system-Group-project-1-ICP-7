@@ -178,13 +178,14 @@ body{
   flex-wrap: wrap;
 
 }
-.we-rewiew{
-    height: 400px;
-    width: 400px;
-    border: white 2px solid;
-    background-color:aqua ;
-    margin: 30px;
+.assets{
+
+    margin: 50px;
 }
+
 .card1 span{
     font-family: 'Montserrat', sans-serif;
+}
+.vehicle{
+    height:300px;
 }
