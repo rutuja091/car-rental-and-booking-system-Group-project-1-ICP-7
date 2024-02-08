@@ -11,7 +11,7 @@ body{
     
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .main-section{
        width: 100%;
     }
@@ -21,6 +21,8 @@ body{
     height: 800px;
     width: 100%;
     border: solid red 2px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .img-section p{
@@ -29,6 +31,13 @@ body{
     font-size: 60px;
     
     font-weight: 900;
+    
+
+}
+.img-section span{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 
 }
 .yellow-taxi{
@@ -36,7 +45,7 @@ body{
     float: right;
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .yellow-taxi{
         height: 200px;
     }
@@ -47,12 +56,18 @@ body{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:768px){
     .box{
         flex-wrap: wrap;
     }
 }
+.boxes span{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  
 
+}
 .box{
     cursor: pointer;
     height: 200px;
@@ -61,7 +76,7 @@ body{
     border-radius: 30px;
     margin: -80px 20px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .box{
         cursor: pointer;
     height: 100px;
@@ -69,7 +84,11 @@ body{
     background-color: gold;
     border-radius: 30px;
     margin: -80px auto;
+
     }
+}
+.box p{
+    text-align: center;
 }
 .box:hover{
     transform: scale(1.1);
@@ -80,12 +99,7 @@ body{
 .content{
     background-color: black;
 }
-span{
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 
-}
 .butn{
     display: flex;
     justify-content: center;
@@ -116,9 +130,7 @@ span{
     color :white
 }
 
-p{
-    text-align: center;
-}
+
 .services{
     display: flex;
     justify-content:center;
@@ -160,16 +172,25 @@ p{
     font-weight: 900;
     margin-left: 0;
 }
+
 .review{
     display: flex;
     justify-content: center;
   flex-wrap: wrap;
 
 }
-.we-rewiew{
-    height: 400px;
-    width: 400px;
-    border: white 2px solid;
-    background-color:aqua ;
-    margin: 30px;
+.assets{
+
+    margin: 50px;
+}
+
+.card1 span{
+    font-family: 'Montserrat', sans-serif;
+}
+.vehicle{
+    height:300px;
+}
+.vehicle:hover{
+    transform: scale(1.050);
+    transition: 0.5s;
 }
