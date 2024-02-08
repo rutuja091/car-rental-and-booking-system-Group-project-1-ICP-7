@@ -130,7 +130,7 @@ p{
     border: solid 2px white;
     height: 200px;
     width: 300px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.916);
     padding: 30px;
     margin: 30px;
    
@@ -143,4 +143,11 @@ p{
     width: 90px;
     margin-top: -20px;
     border-top: 2px solid gold;
+}
+.card1 p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.card1 img{
+   height: 50px;
 }
