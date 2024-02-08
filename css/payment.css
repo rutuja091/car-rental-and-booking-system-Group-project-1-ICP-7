@@ -34,13 +34,14 @@
   }
    
   .title {
-    text-align: center;
     font-weight: 700;
     margin: 0;
     padding: 20px 0;
     color: #2e2e2e;
   }
-   
+  .title .h2{
+    font-size: 30px;
+  }
 .payment-method{
   display: flex;
   padding-top: 40px;
@@ -226,7 +227,7 @@
   .panel-body {
     padding: 30px 0px;
   }
-  .title h2{
+  .title .h2{
     font-size: xx-large;
     padding-bottom: 5px;
   }
