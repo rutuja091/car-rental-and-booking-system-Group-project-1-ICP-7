@@ -6,57 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/contact.css"/>
     <link rel="stylesheet" href="./css/style.css">
+    
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
   />
+  
     <title>Contact Us</title>
   </head>
   <body>
-   
-    <div class="container">
+
+    <!-- Navbar -->
+    <header>
+      <div class="nav-bar">
+          <div class="hamburger">
+              <img src="./../icons/menu (1).png" height="30px" alt="" id="hambergerBtn">
+
+          </div>
+          <div>
+              <a href="index.html" ><img src="../images/logo1.jpg" alt=" logo" class="logo"></a>
+          </div>
+         
+          <div class="menu">
+              <a href="./../index.html" CLASS="HOME">HOME</a>
+              <a href="aboutus.html" CLASS="ABOUT US">ABOUT US </a>
+              <a href="contact.html" CLASS="contact">CONTACT US</a>
+              <a href="Services.html" CLASS="Services">SERVICES </a>
+
+          </div>
+          <div>
+
+          </div>
+          
+      </div>
+  </header>
+  <!-- Nav-Bar End -->
+
+
+       <div class="container">
+        <!--start first card-->
       <div class="contact_data2">
-       
+
+         <!--start address call and email part -->
         <ul>
-        
           <li>
             <a href=https://maps.app.goo.gl/rUoSC6S7X4UtsiuM7 class="links">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-location-dot"alt="location-icon"id="location"></i>
             <strong>Location:</strong>
             <p>1288/567, New Nandanvan Colony, Nandanvan, Nagpur, Maharashtra 440024</p></a>
            </li>
            <li>
             <a href="mailto:journeyjet@gmail.com" class="links">
-            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-envelope"alt="email-icon"id="email"></i>
             <strong>Email:</strong>
             <p>journeyjet@gmail.com</p></a>
           </li>
           <li>
-            <a href="tel:+00 000 000 00" class="links">
-            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 000 000 0000" class="links">
+            <i class="fa-solid fa-phone" alt="phone-icon"id="call"></i>
              <strong>Call:</strong>
-            <p>+00 000 000 00</p></a>
+            <p>+91 000 000 0000</p></a>
           </li>
          </ul>
+          <!--end address call and email part -->
        
             <!--social meaia starts-->
             <span class="sociadMedia" >
             
-             <a href="http://youtube.com/@roadtocode4u" class=""><i class="fa-brands fa-youtube"></i></a>
-              <a href="http://github.com/rutuja091" class=""><i class="fa-brands fa-github"></i></a>
-              <a href="http://instagram.com/roadtocode4u" class=""><i class="fa-brands fa-instagram"></i></a>
-              <a href="http://linkedin.com/company/roadtocode" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="http://youtube.com/@roadtocode4u" class=""><i class="fa-brands fa-youtube" alt="youtube-icon"></i></a>
+              <a href="http://github.com/rutuja091" class=""><i class="fa-brands fa-github" alt="github-icon"></i></a>
+              <a href="http://instagram.com/roadtocode4u" class=""><i class="fa-brands fa-instagram" alt="instagram-icon"></i></a>
+              <a href="http://linkedin.com/company/roadtocode" class=""><i class="fa-brands fa-linkedin-in" alt="inkedin-icon"></i></a>
             </span>
           <!--social media end-->
+
+          <!--start map part-->
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14886.020615180501!2d79.1208889!3d21.1322859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c72f6cfd177b%3A0x89fad83f168449e1!2sRoad%20To%20Code!5e0!3m2!1sen!2sin!4v1707145073248!5m2!1sen!2sin"
            width="600" height="450" 
            style="border:0;" allowfullscreen="" 
            loading="lazy" 
-           referrerpolicy="no-referrer-when-downgrade">
+           referrerpolicy="no-referrer-when-downgrade" alt="map-location">
           </iframe>
         </div>
+        <!--end map part -->
       </div>
+
+      <!--end first card-->
+
+      <!--start second card-->
       <div class="contact_data">
         <h2>Connect With Us</h2>
         <form action="#">
@@ -71,6 +109,8 @@
           <button>Send Message</button>
         </form>
       </div>
+      <!--end second card-->
+
     </div>
   </body>
 </html>

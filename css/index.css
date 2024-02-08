@@ -42,10 +42,7 @@ body{
     }
 }
 
-.book-btn{
-    margin-top:500px;
-    background-color: black;
-}
+
 .boxes{
     display: flex;
     justify-content: center;
@@ -89,32 +86,90 @@ span{
     font-weight: 900;
 
 }
-.btn{
+.butn{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    margin-bottom: 150px;
+   
 }
+
 .button{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin-top: 200px;
-    margin-right: 10px;
     cursor: pointer;
-    border-radius: 20px; 
+    background-color: red;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 50px;
     width: 150px;
     font-size: 20px;
-    padding: 15px;
-    background-color: #ff0000;
-    border: none;   
-}
- a{
-    text-decoration: none;
-    color :white
+    font-weight: 600;
+    margin-top: 150px;
+    margin-right: 10px;
+    border: white 2px solid;  
 }
 .button:hover{
     transform: scale(0.9);
     transition: 0.5s;
 }
+ a{
+    text-decoration: none;
+    color :white
+}
+
 p{
     text-align: center;
 }
+.services{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
 
+}
+
+.card1{
+    border: solid 2px white;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.916);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 5px;
+   
+}
+
+.service-header p{
+    text-align: center;
+}
+.hr{
+    width: 90px;
+    margin-top: -20px;
+    border-top: 2px solid gold;
+}
+.card1 p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  
+}
+.card1 img{
+   height: 40px;
+}
+.card1 span{
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 0;
+}
+.review{
+    display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
+
+}
+.we-rewiew{
+    height: 400px;
+    width: 400px;
+    border: white 2px solid;
+    background-color:aqua ;
+    margin: 30px;
+}
