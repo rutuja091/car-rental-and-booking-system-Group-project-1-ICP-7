@@ -184,6 +184,14 @@ body{
     position: relative;
    
 }
+.container:hover{
+
+     transition: 1.5s;
+     margin-top: 2px;
+     box-shadow: 0 0 6px 3px rgb(65, 65, 64);
+}
+
+
 
 .name{
     text-align: center;
