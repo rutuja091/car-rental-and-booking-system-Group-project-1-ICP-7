@@ -7,13 +7,13 @@ body{
 .main-section{
     margin-top: 100px;
    width: 100%;
-    border: solid 2px black;
+    border: solid 2px rgb(0, 34, 255);
     
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .main-section{
-        width:100%;
+       width: 100%;
     }
 }
 
@@ -21,6 +21,8 @@ body{
     height: 800px;
     width: 100%;
     border: solid red 2px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .img-section p{
@@ -29,6 +31,13 @@ body{
     font-size: 60px;
     
     font-weight: 900;
+    
+
+}
+.img-section span{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 
 }
 .yellow-taxi{
@@ -36,20 +45,29 @@ body{
     float: right;
 
 }
-.book-btn{
-    margin-top:500px;
-    background-color: black;
+@media screen and (max-width:768px){
+    .yellow-taxi{
+        height: 200px;
+    }
 }
+
+
 .boxes{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:768px){
     .box{
         flex-wrap: wrap;
     }
 }
+.boxes span{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  
 
+}
 .box{
     cursor: pointer;
     height: 200px;
@@ -57,6 +75,20 @@ body{
     background-color: gold;
     border-radius: 30px;
     margin: -80px 20px;
+}
+@media screen and (max-width:768px){
+    .box{
+        cursor: pointer;
+    height: 100px;
+    width: 200px;
+    background-color: gold;
+    border-radius: 30px;
+    margin: -80px auto;
+
+    }
+}
+.box p{
+    text-align: center;
 }
 .box:hover{
     transform: scale(1.1);
@@ -67,41 +99,98 @@ body{
 .content{
     background-color: black;
 }
-span{
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 
-}
-.btn{
+.butn{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    margin-bottom: 150px;
+   
 }
+
 .button{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin-top: 200px;
-    margin-right: 10px;
     cursor: pointer;
-    border-radius: 20px; 
+    background-color: red;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 50px;
     width: 150px;
     font-size: 20px;
-    padding: 15px;
-    background-color: #ff0000;
-    border: none;   
-}
- a{
-    text-decoration: none;
-    color :white
+    font-weight: 600;
+    margin-top: 150px;
+    margin-right: 10px;
+    border: white 2px solid;  
 }
 .button:hover{
     transform: scale(0.9);
     transition: 0.5s;
 }
-p{
+ a{
+    text-decoration: none;
+    color :white
+}
+
+
+.services{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.card1{
+    border: solid 2px white;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.916);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 5px;
+   
+}
+
+.service-header p{
     text-align: center;
 }
-.sign-in{
-    margin-right: ;
+.hr{
+    width: 90px;
+    margin-top: -20px;
+    border-top: 2px solid gold;
+}
+.card1 p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  
+}
+.card1 img{
+   height: 40px;
+}
+.card1 span{
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 0;
+}
 
+.review{
+    display: flex;
+    justify-content: center;
+  flex-wrap: wrap;
+
+}
+.assets{
+
+    margin: 50px;
+}
+
+.card1 span{
+    font-family: 'Montserrat', sans-serif;
+}
+.vehicle{
+    height:300px;
+}
+.vehicle:hover{
+    transform: scale(1.050);
+    transition: 0.5s;
 }
