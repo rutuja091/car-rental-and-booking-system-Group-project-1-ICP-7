@@ -1,0 +1,186 @@
+.background{
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+}
+.footbg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 0 auto;
+}
+.img {
+  height: 30px;
+}
+
+.ul-contact i{
+    margin-right:10px ;
+    font-size: 30px;
+}
+
+.ul-contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p {
+  margin-left: 70px;
+  top: 10%;
+  font-size: 30px;
+  color: white;
+}
+
+.p:hover {
+  color: gold;
+}
+
+.text {
+  margin-left: 42%;
+  top: 10%;
+}
+
+.logo-name {
+  top: 60%;
+  font-family: copperplate gothic light;
+  color: gold;
+}
+
+.description {
+  top: 70%;
+  font-size: 22px;
+}
+
+.links {
+  display: inline;
+}
+
+.quick {
+  color: gold;
+  text-decoration: none;
+  top: 60%;
+  font-size: 20px;
+  transition: 0.5sec;
+}
+
+.quick-link {
+  font-size: 30px;
+}
+.li a {
+  text-decoration: none;
+  color: white;
+}
+.li a:hover {
+  color: yellow;
+}
+.li:hover {
+  margin-left: 10px;
+}
+.li {
+  margin-bottom: 7px;
+  transition: 0.3s;
+}
+
+.service {
+  color: aliceblue;
+  text-decoration: none;
+  left: 54%;
+  top: 60%;
+  font-size: 20px;
+  transition: 0.5sec;
+}
+
+.our-serv {
+  font-size: 30px;
+  color: gold;
+}
+
+.Contact {
+  color: aliceblue;
+  text-decoration: none;
+  left: 77%;
+  top: 60%;
+  font-size: 20px;
+  transition: 0.5sec;
+}
+
+.contact-us-li {
+  font-size: 30px;
+  color: gold;
+}
+
+.underline {
+  border-style: solid;
+  width: 90px;
+  border-color: gold;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.underline-copy{
+    border-style: solid;
+  width: 100%;
+  border-color: gold;
+  border-width: 2px;
+}
+
+.copyright {
+    padding-bottom: 15px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.sociadMedia{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:22px 0px 20px;  
+  }
+  
+  .sociadMedia a{
+    width:35px;
+    height:35px;
+    text-decoration:none;
+    text-align:center;
+    margin-right:15px;
+    border-radius:5px;
+    background-color:gold;
+    transition:0.4s;
+  }
+  .sociadMedia a i{
+    padding-left: 9px;
+    color:black;
+    font-size:18px;
+    line-height:35px;
+    border:1px solid transparent;
+    transition-delay:0.4s;
+  }
+  
+  .sociadMedia a:hover{
+     transform:translateY(-3px);
+     background-color:white;
+     
+     border:1px solid #000000;
+  }
+  .sociadMedia a:hover i{
+    color:#000000;
+  
+  }
+
+
+  /* Responsive */
+
+  @media screen and  (max-width:768px){
+    .footbg{
+       
+    }
+
+  }
+
