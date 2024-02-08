@@ -128,18 +128,14 @@ p{
 
 .card1{
     border: solid 2px white;
-    height: 300px;
-    width: 600px;
+    height: 200px;
+    width: 300px;
     background-color: white;
-    border-radius: 30px;
-    margin:50px;
+    padding: 30px;
+    margin: 30px;
    
 }
-.card1:hover{
-    transform: scale(1.1);
-    transition: 1s;
-   
-}
+
 .service-header p{
     text-align: center;
 }
