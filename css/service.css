@@ -19,7 +19,7 @@
 .body{
     margin:0;
     padding:0;
-    background-color:#232526;
+    background-color:#fff;
     }
   
   .service{
@@ -31,6 +31,7 @@
 .text{
   display:flex;
   font-family: 'Montserrat', sans-serif;
+  background-color:#232526;
 }
 .single_services{
   background-color:#fff;
@@ -63,7 +64,7 @@
 }
 .btn {
   color: #fff;
-  background: #232526;
+  background:#232526;
  /* height: 60px;
   width: 100px;  
   border-radius:30%;*/
@@ -86,6 +87,7 @@
     
    margin-left:55px;
     margin-right:55px;
+    color:#232526;
    
   }
 
