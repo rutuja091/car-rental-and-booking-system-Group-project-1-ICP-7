@@ -10,43 +10,48 @@
  
 </head>
 <body>
+    <div class="daily">
     <div class="img-section box">
         <img src="../../images/index-imgs/Order ride.gif" alt="Order ride" class="city-ride"/>
     </div>
     <div class="book-form box">
         <form class="contanre " >
-        <h2>Book Your Car Today!</h2>
-        <select name="car"  class="select-car">
-            <option> select your car </option>
-            <option> Red</option>   
-            <option> Black </option>
-            <option> Grey</option>
+        <p>Book Your Cab Today!</p>
+        <select name="car"  class="select-car" required>
+            <option> select Your Ride </option>
+            <option> Rickshaw</option>   
+            <option> Car </option>
+            <option> Taxi</option>
+            <option> Motorbike</option>
+            <option> Van</option>
+            
         </select> 
         
-        <select name="pickup"  class="half h-l">
+        <select name="pickup"  class="half h-l" required>
             <option> Pickup </option>
-            <option> 30$</option>   
-            <option> 100$ </option>
-            <option> 40$</option>
+            <option></option>   
+            <option></option>
+            <option> </option>
         </select> 
-        <input type="text" name="date" placeholder="Date & Time" class="half h-r">
+        <input type="date" name="date" placeholder="Date & Time" class="half h-r" required>
     
-        <select name="drop"  class="half h-l">
+        <select name="drop"  class="half h-l" required>
             <option> Drob 0ff </option>
-            <option> Apr</option>   
-            <option> Mar </option>
-            <option> Des </option>
+            <option> </option>   
+            <option>  </option>
+            <option>  </option>
         </select>
     
-        <input type="text" name="time" placeholder="Date & Time" class="half h-r">
-        <input type="text" name="name" placeholder="your name" class="select-car">
-        <input type="text" name="email" placeholder="Email Address" class="select-car">
-        <input type="text" name="phone" placeholder="your phone" class="select-car">
+        <input type="time" name="time" placeholder="Date & Time" class="half h-r"required>
+        <input type="text" name="name" placeholder="your name" class="select-car"required>
+        <input type="text" name="email" placeholder="Email Address" class="select-car"required>
+        <input type="text" name="phone" placeholder="your phone" class="select-car"required>
     
-        <button type="submit" > conform car booking</button>
+        <button type="submit" ><a href="#">Get OTP</a> </button>
     </div>
     
 
 </form>
+</div>
 </body>
 </html>

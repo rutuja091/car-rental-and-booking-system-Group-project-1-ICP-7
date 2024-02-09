@@ -1,37 +1,53 @@
- 
-body{
+form{
+    margin-left: 60px;
+}
+
+.daily{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+  
+    border-radius: 10px;
+    padding: 30px;
 }
+    
 
-.box{
-    margin: 100px 0;
-    height: 500px;
-    width: 500px;
-    border: solid 2px rgb(255, 0, 0);
-}    
+.contanre p{
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
 
-.contanre{
- 
-    width: 100%;
+
+
 }
 .city-ride{
     height: 500px;
     margin-left: 20px;
 }
 .title a , button  { 
+    cursor: pointer;
     background-color: #f9b700;
     border: none;
     padding: 15px 35px;
+    font-family: 'Montserrat', sans-serif;
     display: inline-flex;
     font-size: 1.1rem;
-    text-transform: uppercase;
-    color: white;
-    border-radius: 2px;}
-.title a:hover , button:hover { 
-    box-shadow: 0 0px 15px 10px  #f9b70093  ;
- }
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+button a{
+    text-decoration: none;
+    color: blaCK;
+}
+
+    .title a , button:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+
 .select-car , .half {
      color: rgb(0, 0, 0) ;
     padding: 8px ; 
@@ -39,12 +55,13 @@ body{
     border-radius: 5px;
     font-size: 1rem;
     text-transform: capitalize;
-    display: block;}
+    display: block;
+}
 
 .select-car { 
     width: 370px;
     margin: 14px 16px;
-border: solid 2px black;}
+border: solid 3px black;}
 
 
 .half {
@@ -54,7 +71,9 @@ border: solid 2px black;}
 }
 
 .h-l { margin: 0px 15px 7px ;
-border: solid 2px black; }
+border: solid 3px black; }
 
-.h-r { margin: 7px 0 0 ; 
-    border: solid 2px black; }
+.h-r { 
+    margin: 10px 15px;
+    border: solid 3px rgb(0, 0, 0); 
+}
