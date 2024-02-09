@@ -218,12 +218,7 @@ body {
   padding: 0;
   background-color: #232526;
 }
-
-text{
-  display:flex;
-}
-
-.img{
+.single_services{
   height: 550px;
   width: 500px;
   border-radius: 1px solid black;
