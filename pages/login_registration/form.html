@@ -4,92 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>* { margin: 0 ;
-        padding: 0;
-    }
-        
-    .
-   form { 
-       
-      
-        }
-    .contanre{
-        border: solid 2px black;
-        width: 100%;
-    }
-    .title a , button  { 
-        background-color: #f9b700;
-        border: none;
-        padding: 15px 35px;
-        display: inline-flex;
-        font-size: 1.1rem;
-        text-transform: uppercase;
-        color: white;
-        border-radius: 2px;}
-    .title a:hover , button:hover { 
-        box-shadow: 0 0px 15px 10px  #f9b70093  ;
-     }
-    .select-car , .half {
-         color: rgb(0, 0, 0) ;
-        padding: 8px ; 
-        border: white solid 2px;
-        border-radius: 5px;
-        font-size: 1rem;
-        text-transform: capitalize;
-        display: block;}
-    
-    .select-car { 
-        width: 370px;
-        margin: 14px 16px;
-    border: solid 2px black;}
-    
-    
-    .half {
-        width: 177px; 
-        flex-wrap: wrap;
-        display: flex;
-    }
-    
-    .h-l { margin: 0px 15px 7px ;
-    border: solid 2px black; }
-    
-    .h-r { margin: 7px 0 0 ; 
-        border: solid 2px black; }
-    </style>
+    <title>cab booking</title>
+    <link rel="stylesheet" href="../../css/form.css"/>
+
+ 
 </head>
 <body>
+    <div class="img-section box">
+        <img src="../../images/index-imgs/Order ride.gif" alt="Order ride" class="city-ride"/>
+    </div>
+    <div class="book-form box">
+        <form class="contanre " >
+        <h2>Book Your Car Today!</h2>
+        <select name="car"  class="select-car">
+            <option> select your car </option>
+            <option> Red</option>   
+            <option> Black </option>
+            <option> Grey</option>
+        </select> 
+        
+        <select name="pickup"  class="half h-l">
+            <option> Pickup </option>
+            <option> 30$</option>   
+            <option> 100$ </option>
+            <option> 40$</option>
+        </select> 
+        <input type="text" name="date" placeholder="Date & Time" class="half h-r">
     
-<form class="contanre" >
-    <h2>Book Your Car Today!</h2>
-    <select name="car"  class="select-car">
-        <option> select your car </option>
-        <option> Red</option>   
-        <option> Black </option>
-        <option> Grey</option>
-    </select> 
+        <select name="drop"  class="half h-l">
+            <option> Drob 0ff </option>
+            <option> Apr</option>   
+            <option> Mar </option>
+            <option> Des </option>
+        </select>
     
-    <select name="pickup"  class="half h-l">
-        <option> Pickup </option>
-        <option> 30$</option>   
-        <option> 100$ </option>
-        <option> 40$</option>
-    </select> 
-    <input type="text" name="date" placeholder="Date & Time" class="half h-r">
-
-    <select name="drop"  class="half h-l">
-        <option> Drob 0ff </option>
-        <option> Apr</option>   
-        <option> Mar </option>
-        <option> Des </option>
-    </select>
-
-    <input type="text" name="time" placeholder="Date & Time" class="half h-r">
-    <input type="text" name="name" placeholder="your name" class="select-car">
-    <input type="text" name="email" placeholder="Email Address" class="select-car">
-    <input type="text" name="phone" placeholder="your phone" class="select-car">
-
-    <button type="submit" > conform car booking</button>
+        <input type="text" name="time" placeholder="Date & Time" class="half h-r">
+        <input type="text" name="name" placeholder="your name" class="select-car">
+        <input type="text" name="email" placeholder="Email Address" class="select-car">
+        <input type="text" name="phone" placeholder="your phone" class="select-car">
+    
+        <button type="submit" > conform car booking</button>
+    </div>
+    
 
 </form>
 </body>

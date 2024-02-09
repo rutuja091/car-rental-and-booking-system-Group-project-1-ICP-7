@@ -1,0 +1,60 @@
+ 
+body{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 100px 0;
+    height: 500px;
+    width: 500px;
+    border: solid 2px rgb(255, 0, 0);
+}    
+
+.contanre{
+ 
+    width: 100%;
+}
+.city-ride{
+    height: 500px;
+    margin-left: 20px;
+}
+.title a , button  { 
+    background-color: #f9b700;
+    border: none;
+    padding: 15px 35px;
+    display: inline-flex;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;}
+.title a:hover , button:hover { 
+    box-shadow: 0 0px 15px 10px  #f9b70093  ;
+ }
+.select-car , .half {
+     color: rgb(0, 0, 0) ;
+    padding: 8px ; 
+    border: white solid 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: block;}
+
+.select-car { 
+    width: 370px;
+    margin: 14px 16px;
+border: solid 2px black;}
+
+
+.half {
+    width: 177px; 
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.h-l { margin: 0px 15px 7px ;
+border: solid 2px black; }
+
+.h-r { margin: 7px 0 0 ; 
+    border: solid 2px black; }
