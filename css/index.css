@@ -77,13 +77,21 @@ body{
 
 }
 .Book-btn{
-    margin-left: 150PX;
-    margin-top:80px ;
-    height: 30px;
-    width: 80px;
+    cursor: pointer;
+    margin-left: 130PX;
+  
+    height: 50px;
+    width: 130px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
-
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Book-btn:hover{
+  transform: scale(0.90);
+    transition: 0.5s;
 }
 @media screen and (max-width:768px){
     .Book-btn{
@@ -106,13 +114,19 @@ body{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-  
+}
 
 }
+.desc{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 .box{
     cursor: pointer;
-    height: 200px;
+    height: 250px;
     width: 400px;
     background-color: gold;
     border-radius: 10px;
@@ -137,9 +151,8 @@ body{
     text-align: center;
 }
 .box:hover{
-    transform: scale(1.1);
+    transform: scale(1.050);
     box-shadow: 2px 2px 10px 2px black;
-
     transition: 1s;
 }
 .content{
@@ -211,6 +224,10 @@ body{
     font-size: 20px;
     color: rgb(0, 0, 0);
   
+}
+.card1:hover{
+    margin-top:-3px;
+    transition: 0.5s;
 }
 .card1 img{
    height: 40px;
