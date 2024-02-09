@@ -55,13 +55,18 @@ body{
 }
 
 
+
+
 .boxes{
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 @media screen and (max-width:768px){
-    .box{
+    .boxes{
         flex-wrap: wrap;
+        justify-content: center;
+        
     }
 }
 .boxes span{
@@ -71,22 +76,60 @@ body{
   
 
 }
+.Book-btn{
+    margin-left: 150PX;
+    margin-top:80px ;
+    height: 30px;
+    width: 80px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+
+}
+@media screen and (max-width:768px){
+    .Book-btn{
+        width: 100px;
+        height: 40px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 25px;
+     background-color: red;
+     border-radius: 30px;
+     padding:2px;
+     border: solid 2px black;
+}
+.Book-btn:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+    .boxes span{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  
+
+}
+}
 .box{
     cursor: pointer;
     height: 200px;
     width: 400px;
     background-color: gold;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: -80px 20px;
+    position: relative;
+    font-size: 20px;
 }
 @media screen and (max-width:768px){
     .box{
         cursor: pointer;
-    height: 100px;
-    width: 200px;
+     margin-bottom: 5px;
+    height: 120px;
+    width: 120px;
     background-color: gold;
-    border-radius: 30px;
-    margin: -80px auto;
+    border-radius: 10px;
+    margin: -50px auto;
+    font-size: 10px;
 
     }
 }
@@ -101,6 +144,8 @@ body{
 }
 .content{
     background-color: black;
+    max: width 100%;;
+  
 }
 
 .butn{
