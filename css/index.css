@@ -2,11 +2,14 @@
 body{
     margin: 0;
     padding: 0;
+    
 
 }
 .main-section{
+    margin-left: 0;box-sizing: border-box;
     margin-top: 100px;
-   width: 100%;
+   width: fit-content;
+   height: 100%;
     border: solid 2px rgb(0, 34, 255);
     
 
