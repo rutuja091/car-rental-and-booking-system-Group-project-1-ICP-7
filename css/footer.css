@@ -1,186 +1,100 @@
-.background{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:black;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 21%;
+   padding: 0 15px;
 }
 
-footer{
-    background-color: black;
+.footer-col h4{
+	font-size: 18px;
+	color: gold;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
 }
-.footbg{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin: 0 auto;
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
 }
-.img {
-  height: 30px;
+.footer-col ul li{
+	margin-bottom: 10px;
 }
-
-.ul-contact i{
-    margin-right:10px ;
-    font-size: 30px;
+.footer-col ul li a{
+	text-decoration: none;
+	color:white;
+	transition: 0.4s;
+	
 }
-
-.ul-contact{
-    display: flex;
-    flex-direction: column;
-    
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
 }
-
-p {
-  margin-left: 70px;
-  top: 10%;
-  font-size: 30px;
-  color: white;
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
 }
-
-.p:hover {
-  color: gold;
-}
-
-.text {
-  margin-left: 42%;
-  top: 10%;
-}
-
-.logo-name {
-  top: 60%;
-  font-family: copperplate gothic light;
-  color: gold;
-}
-
-.description {
-  top: 70%;
-  font-size: 22px;
-}
-
-.links {
-  display: inline;
-}
-
-.quick {
-  color: gold;
-  text-decoration: none;
-  top: 60%;
-  font-size: 20px;
-  transition: 0.5sec;
-}
-
-.quick-link {
-  font-size: 30px;
-}
-.li a {
-  text-decoration: none;
-  color: white;
-}
-.li a:hover {
-  color: yellow;
-}
-.li:hover {
-  margin-left: 10px;
-}
-.li {
-  margin-bottom: 7px;
-  transition: 0.3s;
-}
-
-.service {
-  color: aliceblue;
-  text-decoration: none;
-  left: 54%;
-  top: 60%;
-  font-size: 20px;
-  transition: 0.5sec;
-}
-
-.our-serv {
-  font-size: 30px;
-  color: gold;
-}
-
-.Contact {
-  color: aliceblue;
-  text-decoration: none;
-  left: 77%;
-  top: 60%;
-  font-size: 20px;
-  transition: 0.5sec;
-}
-
-.contact-us-li {
-  font-size: 30px;
-  color: gold;
-}
-
-.underline {
-  border-style: solid;
-  width: 90px;
-  border-color: gold;
-  border-width: 2px;
-  border-radius: 10px;
-}
-
-.underline-copy{
-    border-style: solid;
-  width: 100%;
-  border-color: gold;
-  border-width: 2px;
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
 
 .copyright {
-    padding-bottom: 15px;
   font-size: 15px;
   color: #fff;
   text-align: center;
 }
 
-
-.sociadMedia{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    flex-wrap:wrap;
-    margin:22px 0px 20px;  
-  }
-  
-  .sociadMedia a{
-    width:35px;
-    height:35px;
-    text-decoration:none;
-    text-align:center;
-    margin-right:15px;
-    border-radius:5px;
-    background-color:gold;
-    transition:0.4s;
-  }
-  .sociadMedia a i{
-    padding-left: 9px;
-    color:black;
-    font-size:18px;
-    line-height:35px;
-    border:1px solid transparent;
-    transition-delay:0.4s;
-  }
-  
-  .sociadMedia a:hover{
-     transform:translateY(-3px);
-     background-color:white;
-     
-     border:1px solid #000000;
-  }
-  .sociadMedia a:hover i{
-    color:#000000;
-  
-  }
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
 
 
-  /* Responsive */
 
-  @media screen and  (max-width:768px){
-    .footbg{
-       
-    }
-
-  }
 
