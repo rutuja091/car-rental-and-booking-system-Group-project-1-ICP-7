@@ -260,7 +260,8 @@ body{
         margin-top: 80px;
     
     }
-    .forms .form-content .login-text a{
+    .forms .form-content .login-text a,
+    .forms .form-content .sign-up-text a{
        text-decoration: none;
        color: #000;
     
