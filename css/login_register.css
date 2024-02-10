@@ -16,10 +16,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://img.freepik.com/premium-vector/travel-seamless-pattern-vector-illustration-hand-drawing-doodles_127770-810.jpg?w=740');
-    background-repeat: repeat;
-    background-attachment: fixed; 
-    background-size: 300px;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #353535, #232526);background: linear-gradient(to right, #494949, #232526); 
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
 }
     
