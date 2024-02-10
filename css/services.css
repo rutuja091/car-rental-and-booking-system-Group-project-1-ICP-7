@@ -194,34 +194,3 @@ body {
 }
 /*-----------Nav-bar Responsive End----------*/
 /*-----------Services Responsive start----------*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
-
-
-@media(max-width:900px) {
-
-
-  .text {
-    flex-wrap: wrap;
-    font-size: small;
-    justify-content: center;
-  }
-  .single_services{
-    justify-content: center;
-    margin-left :40px;
-    margin-right: 40px;
-  }
-}
-
-
-.body {
-  margin: 0;
-  padding: 0;
-  background-color: #232526;
-}
-.single_services{
-  height: 550px;
-  width: 500px;
-  border-radius: 1px solid black;
-  text-align: center;
-  margin-top: 70px;
-}
