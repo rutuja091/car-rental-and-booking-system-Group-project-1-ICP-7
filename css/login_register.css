@@ -251,10 +251,21 @@ body{
         margin: auto;
         width: auto;
     }
-    .forms .form-content  .input-box input[type="submit"]{
-        margin-top: 30px ;
+    .forms .form-content .login-form .input-box input[type="submit"]{
+        margin-top: 80px ;
         padding: 0px 20px;
     }
+    .forms .form-content .login-text{
+        text-align: center;
+        margin-top: 80px;
+    
+    }
+    .forms .form-content .login-text a{
+       text-decoration: none;
+       color: #000;
+    
+    }
+
     .forms .form-content .text-accept-term{
         margin: 0px 0px;
     
