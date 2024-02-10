@@ -25,7 +25,10 @@ body{
     
 .container{
     position: relative;
-    max-width:  80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:  70%;
     width: 100%;
     background: #fff;
     padding: 40px 30px;
@@ -129,12 +132,17 @@ body{
     color: #000;
     font-size: 17px;
 }
+
 .forms .form-content .text{
-    margin: 0px 0px;
     padding-top: 10px;
     font-size: 14px;
     font-weight: 500;
     color: #000;
+}
+
+.forms .form-content .text-accept-term{
+    margin: 0px 30px;
+
 }
 .forms .form-content .text a{
     text-decoration: none;
@@ -176,9 +184,7 @@ body{
     text-align: center;
     margin-top: 25px;
 }
-.container #flip{
-    display: none;
-}
+
 @media (max-width: 769px) {
     body{
         margin: 0px;
@@ -210,6 +216,10 @@ body{
     .login-text{
         position: relative;
         top: 90px;
+    }
+    .forms .form-content .text-accept-term{
+        margin: 0px 0px;
+    
     }
 }
 
@@ -252,13 +262,8 @@ body{
         margin-top: 30px ;
         padding: 0px 20px;
     }
-    .form-content .signup-form{
-        display: none;
-    }
-    .container #flip:checked ~ .forms .signup-form{
-        display: block;
-    }
-    .container #flip:checked ~ .forms .login-form{
-        display: none;
+    .forms .form-content .text-accept-term{
+        margin: 0px 0px;
+    
     }
 }
