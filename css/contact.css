@@ -216,17 +216,7 @@ body {
     
     }
 
-    @media screen and (max-width: 668px) {
-      .main_cont .first-part{
-        width:100%;
-        height:auto;
-        padding:10px 10px;
-      
-      }
-    }
-    
-
-
+  
    /*start contact card css*/
 .main_cont .contact_data1{
     background: #fff;
@@ -243,13 +233,6 @@ body {
   }
 
 
-  @media screen and (max-width: 668px) {
-    .main_cont .contact_data1{
-      flex-wrap: wrap;
-    }
-    }
-
-  
   .main_cont .contact_data1 ul {
     list-style: none;
   }
@@ -455,6 +438,8 @@ body {
    cursor: pointer;
    transition: all 0.3s;
    font-family: 'Montserrat', sans-serif;
+   justify-content: center;
+   text-align: center;
  }
  
  .main_cont .contact_data2 button:hover {
@@ -475,3 +460,82 @@ height:400px;
 }
  
 /*contact main part start */
+
+@media screen and (max-width:768px){
+  .main_cont .first-part{
+   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  }
+
+  .main_cont .contact_data1{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:20% 20%;
+
+
+  }
+.main_cont .img-part{
+  justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 30%;
+
+}
+
+
+.second-part{
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  height:auto;
+
+}
+
+.sociadMedia{
+  justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right:120px;
+  
+    
+}
+.main_cont .third-part{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  }
+  .main_cont .contact_data2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-right: 80px;
+    height: auto;
+  }
+
+  .main_cont .contact_data2 form {
+    padding: 10px;
+   
+    border: 03px solid #232526;
+    border-radius: 50px;
+ 
+  }
+
+
+  .main_cont .contact_data2 h2{
+    font-size: 20px;
+    margin-right:80px;
+  }
+}
+
+
+
+
+
+
+
