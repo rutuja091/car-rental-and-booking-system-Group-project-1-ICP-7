@@ -256,6 +256,23 @@ body {
     color:green;
   }
   
+  #location:hover{
+    color:crimson;
+    
+    transform:translateY(2px);
+  }
+
+  #email:hover{
+    color:blue;
+  
+    transform:translateY(2px);
+  }
+
+  #call:hover{
+    color:green;
+   
+    transform:translateY(2px);
+  }
   
   .main_cont .contact_data1 ul li strong {
     margin-left: 10px;
@@ -347,6 +364,7 @@ body {
 
 .fa-youtube:hover{
   color:red;
+
 }
 
 .fa-instagram:hover{
@@ -447,6 +465,7 @@ body {
    transition: 0.3s;
    color: #232526;
    border:1px solid   #232526;
+   background-color: gold;
  }
  
  /*end third card css*/
