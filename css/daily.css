@@ -1,0 +1,143 @@
+form{
+    margin-left: 60px;
+}
+
+.daily{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 150px;
+    padding: 30px;
+    box-shadow: 0 0 10px 5px #030303;
+}
+.daily{
+
+}
+.contanre p{
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+}
+@media screen and (max-width:768px){
+    .daily{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        border-radius: 10px;
+        margin:10px;
+        padding: 30px;
+ 
+    }
+    .title a , button  { 
+        cursor: pointer;
+        background-color: #f9b700;
+        border: none;
+        padding: 7px 15px;
+        font-family: 'Montserrat', sans-serif;
+        display: inline-flex;
+        font-size: 1.1rem;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        font-weight: 600;
+        margin-left:100px;
+    }
+    button a{
+        text-decoration: none;
+        color: blaCK;
+    }
+    
+        .title a , button:hover{
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+    
+    .select-car , .half {
+         color: rgb(0, 0, 0) ;
+        padding: 8px ; 
+        border: white solid 2px;
+        border-radius: 5px;
+        font-size: 1rem;
+        text-transform: capitalize;
+        display: block;
+    }
+    
+    .select-car { 
+        width: 200px;
+        margin: 14px 16px;
+    border: solid 3px black;}
+    
+    
+    .half {
+        width: 100px; 
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    .h-l { margin: 0px 15px 7px ;
+    border: solid 3px black; }
+    
+    .h-r { 
+        margin: 10px 15px;
+        border: solid 3px rgb(0, 0, 0); 
+    }
+}
+.city-ride{
+    height: 500px;
+    margin-left: 20px;
+}
+.title a , button  { 
+    cursor: pointer;
+    background-color: #f9b700;
+    border: none;
+    padding: 15px 35px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+button a{
+    text-decoration: none;
+    color: blaCK;
+}
+
+    .title a , button:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+
+.select-car , .half {
+     color: rgb(0, 0, 0) ;
+    padding: 8px ; 
+    border: white solid 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    display: block;
+}
+
+.select-car { 
+    width: 300px;
+    margin: 14px 16px;
+border: solid 3px black;}
+
+
+.half {
+    width: 200px; 
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.h-l { margin: 0px 15px 7px ;
+border: solid 3px black; }
+
+.h-r { 
+    margin: 10px 15px;
+    border: solid 3px rgb(0, 0, 0); 
+}
