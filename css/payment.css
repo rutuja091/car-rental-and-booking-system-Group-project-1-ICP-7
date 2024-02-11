@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap");
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -24,7 +22,7 @@ body {
   width: 100%;
   /* padding: 32px; */
   border-radius: 10px;
-  margin-bottom: 40px;
+  margin: 50px 0px;
 }
 .panel-body {
   padding: 60px 50px 0;
