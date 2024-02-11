@@ -1,19 +1,26 @@
-form{
-    margin-left: 60px;
+body{
+    margin: 0;
+    padding: 0;
+   background-color: red;
 }
+form{
+    
+    margin-left: 60px;
+    background-color: rgb(0, 127, 254);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgb(41, 42, 43);
+}
+
 
 .daily{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red;
+   
     border-radius: 10px;
     margin: 150px;
     padding: 30px;
-    box-shadow: 0 0 10px 5px #030303;
-}
-.daily{
-
+    box-shadow: 0 0 20px 1px rgb(41, 42, 43);
 }
 .contanre p{
  text-align: center;
@@ -22,16 +29,26 @@ form{
  font-weight: 700;
 }
 @media screen and (max-width:768px){
-   
+   .img-section{
+  display: none;
+   }
+   form{
+    padding-right: 50px;
+    margin-right: 50px;
+    
+   }
     .daily{
+
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
-        
         border-radius: 10px;
-        margin:10px;
+        margin:50px 0 0 0 px;
         padding: 30px;
- 
+        background-color: rgb(255, 255, 255);
+        box-shadow: none;
+        border: none;
+   
     }
     .title a , button  { 
         cursor: pointer;
@@ -87,7 +104,7 @@ form{
     }
     @media screen and (min-width:768px){
         .daily{
-            display: none;
+        display: none;
      
         }
     }
@@ -107,7 +124,7 @@ form{
     color: rgb(0, 0, 0);
     border-radius: 20px;
     font-weight: 600;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 button a{
     text-decoration: none;
