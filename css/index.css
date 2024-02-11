@@ -222,11 +222,7 @@ body{
 .service-header p{
     text-align: center;
 }
-.hr{
-    width: 90px;
-    margin-top: -20px;
-    border-top: 2px solid gold;
-}
+
 .card1 p{
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
@@ -252,6 +248,7 @@ body{
     justify-content: center;
   flex-wrap: wrap;
 
+
 }
 .assets{
 
@@ -262,7 +259,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .vehicle{
-    height:300px;
+    height:250px;
 }
 .vehicle:hover{
     transform: scale(1.050);
