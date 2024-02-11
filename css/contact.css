@@ -1,259 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
-
-*{
-  box-sizing: 0;
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-body {
-  background:#232526;
-  max-width: 100%;
-  height: 100vh;
-}
-.container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  
-
-}
-/*Start second card css*/
-.container .contact_data  {
-   background: #fff;
-   border-radius: 02px;
-   border-top: 04px solid #232526;
-   width: 500px;
-   height:600px;
-   margin: 0 10px;
-   border-radius:10px 10px;
-   padding:10px 10px;
-   
-   }
-
-  /*second card form css*/
- .container .contact_data form {
-  padding: 0 1rem;
-}
-
-.container .contact_data form input,textarea {
-  width: 90%;
-  margin: 05px 0 0 10px;
-  padding: 07px 10px;
-  border: 1px solid #232526;
-  font-size: 1rem;
-  border-radius: 05px;
-}
-
-.container .contact_data h2 {
-  margin: 1.5rem;
-  border-bottom: 0.2rem #232526;
-  
-}
-
-.container .contact_data label {
-  display: block;
-  padding-top: 15px;
-  padding-left: 10px;
-}
-
-.container .contact_data button {
-  margin: 20px 10px;
-  border: 1px solid #fff;
-  padding: 10px 20px;
-  background: #232526;
-  color:#fff;
-  font-size: 1rem;
-  border-radius: 23px;
-  cursor: pointer;
-  transition: all 0.3s;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.container .contact_data button:hover {
-  background: #fff;
-  transition: 0.3s;
-  color: #232526;
-  border:1px solid   #232526;
-}
-
-/*end second card css*/
-
-/*start first card css*/
-.container .contact_data2 {
-  background: #fff;
-  border-radius: 02px;
-  border-top: 04px solid #232526;
-  width: 400px;
-  height:600px;
-  margin: 0 10px;
-  border-radius:10px 10px;
-  padding:10px 10px;
-}
-
-.container .contact_data2 ul {
-  list-style: none;
-}
-
-.container .contact_data2 ul li {
-  margin: 25px;
-}
-
-.container .contact_data2 ul li i {
-  font-size: 25px;
-  color: #232526;
-  
-}
-#location{
-  color:crimson;
-}
-#email{
-  color:blue;
-}
-#call{
-  color:green;
-}
-
-
-.container .contact_data2 ul li strong {
-  margin-left: 10px;
-  font-size: 1.2rem;
-}
-
-.container .contact_data2 ul li p {
-  font-size: 14px;
-  margin-left: 35px;
-  margin-top: 10px;
-}
-
-.container .contact_data2 .map iframe {
-  width: 90%;
-  height: 250px;
-  margin: 0 1rem;
-}
-/*start css for social media icons*/
-.sociadMedia{
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  flex-wrap:wrap;
-  margin:22px 0px 20px;  
-  margin-left:25%;
-}
-
-.sociadMedia a{
-  width:35px;
-  height:35px;
-  text-decoration:none;
-  text-align:center;
-  margin-right:15px;
-  border-radius:5px;
-  background-color:#000000;
-  transition:0.4s;
-}
-
-.sociadMedia a i{
-  color:#fff;
-  font-size:18px;
-  line-height:35px;
-  border:1px solid transparent;
-  transition-delay:0.4s;
-}
-/*end css for social media icons*/
-
-/*start css social media icons hover effect*/
-.sociadMedia a:hover{
-   transform:translateY(-2px);
-   background-color:#fff;
-   border:1px solid #000000;
-}
-
-.fa-youtube:hover{
-  color:red;
-}
-
-.fa-instagram:hover{
-  color:crimson;
-}
-
-.fa-github:hover{
-  color: black;
-}
-
-.fa-linkedin-in:hover{
-  color:blue;
-}
-
-.links{
-  color:#000000;
-  text-decoration: none;
-}
-
-.map iframe{
-  box-shadow:  0px 0px 10px 1px black;
- 
-}
-
-
-/*end css social media icons hover effect*/
-
-
-/* End first card css*/
-
-
-/*-----start media query-----*/
-
-@media (max-width: 768px) {
-  .container .contact_data,
-  .contact_data2 {
-    width: 80%;
-    margin: 10px 0px;
-  }
-  .container .contact_data h2 {
-    width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  .container .contact_data2 {
-    width: 75%;
-    margin: 10px 0px;
-  }
-  .container .contact_data h2 {
-    width: 50%;
-  }
-}
-
-/*-----start media query-----*/
-
-
-
-
-
-
-
-
-/*---- start navbar css ---*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Black+Ops+One&family=Pacifico&display=swap');
 
- /*body {
+body {
   margin: 0%;
   padding: 0%;
  background-color: #ffffff;
-  background-color: #232526; 
+  /* background-color: #232526; */
  
   
-}*/
+}
 /*--------------------- Nav Bar---------------------*/
 .nav-bar {
   height: 100px;
@@ -436,37 +193,374 @@ body {
 
 }
 /*-----------Nav-bar Responsive End----------*/
-/*-----------Services Responsive start----------*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 
 
-@media(max-width:900px) {
 
-
-  .text {
-    flex-wrap: wrap;
-    font-size: small;
+/*contact main part start */
+.main_cont {
+    width: 100%;
+    height:auto;
+   
     justify-content: center;
+    align-items: center;
+    margin-top:0px;
+    margin-bottom:100px;
+   
+    }
+    .main_cont .first-part{
+      display:flex;
+      width:100%;
+      height:auto;
+      padding: 10px 10px;
+     
+      display: flex;
+      margin-top: 150px;
+      
+    }
+
+  
+   /*start contact card css*/
+.main_cont .contact_data1{
+    background: #fff;
+    border-radius: 02px;
+    border-top: 04px solid #232526;
+    border-bottom: 04px solid #232526;
+    width:600px;
+    height:auto;
+   margin-left: 10%;
+    border-radius:10px 10px;
+    padding:10px;
+    padding-top: 30px;
+    box-shadow:0px 0px 10px 1px black ;
+    
   }
-  .single_services{
-    justify-content: center;
-    margin-left :40px;
-    margin-right: 40px;
+
+  
+  .main_cont .contact_data1 ul {
+    list-style: none;
   }
+  
+  .main_cont .contact_data1 ul li {
+    margin: 25px;
+  }
+  
+  .main_cont .contact_data1 ul li i {
+    font-size: 25px;
+    color: #232526;
+    
+  }
+  #location{
+    color:crimson;
+  }
+  #email{
+    color:blue;
+  }
+  #call{
+    color:green;
+  }
+  
+  #location:hover{
+    color:crimson;
+    
+    transform:translateY(2px);
+  }
+
+  #email:hover{
+    color:blue;
+  
+    transform:translateY(2px);
+  }
+
+  #call:hover{
+    color:green;
+   
+    transform:translateY(2px);
+  }
+  
+  .main_cont .contact_data1 ul li strong {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .main_cont .contact_data1 ul li p {
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+    
+  .main_cont .img-part
+  {
+    background: #fff;
+    border-radius: 02px;
+   
+    width:600px;
+    height:auto;
+    margin: 0px 30px;
+    border-radius:10px 10px;
+    padding:10px 10px;
+    
+    
+  }
+  .main_cont .img-part .image
+  {
+  height: 400px;
+  width: 400px;
+  margin-left: 20%;
+  
+  }
+ 
+
+
+  
+ /* End contact  card css*/
+
+
+ /*second-part*/
+
+ .second-part
+ {
+  height:100px;
+  width: 100%;
+  margin-top: 50px;
+  background-color:gold;
+ }
+
+
+ /*start css for social media icons*/
+ .sociadMedia{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-left:40%;
+  
 }
 
 
-.body {
-  margin: 0;
-  padding: 0;
-  background-color: #232526;
+.sociadMedia a{
+  width:50px;
+  height:50px;
+  text-decoration:none;
+  text-align:center;
+  margin-right:20px;
+  border-radius:5px;
+  background-color:#000000;
+  transition:0.4s;
+  margin-top: 25px;
+
 }
 
-  /*height: 550px;
-  width: 500px;
-  border-radius: 1px solid black;
+.sociadMedia a i{
+  color:#fff;
+  font-size:30px;
+  line-height:35px;
+  border:1px solid transparent;
+  transition-delay:0.4s;
+  margin-top:9px;
+}
+/*end css for social media icons*/
+
+/*start css social media icons hover effect*/
+.sociadMedia a:hover{
+   transform:translateY(-2px);
+   background-color:#fff;
+   border:1px solid #000000;
+}
+
+.fa-youtube:hover{
+  color:red;
+
+}
+
+.fa-instagram:hover{
+  color:crimson;
+}
+
+.fa-github:hover{
+  color: black;
+}
+
+.fa-linkedin-in:hover{
+  color:blue;
+}
+
+.links{
+  color:#000000;
+  text-decoration: none;
+}
+/*end css social media icons hover effect*/
+
+
+/*Start third part css*/
+  .main_cont .third-part{
+    display:flex;
+    width:100%;
+    height:auto;
+    padding:10px 10px;
+    margin-bottom:50px;
+   
+    
+  }
+
+.main_cont .contact_data2  {
+    background: #fff;
+    border-radius: 02px;
+    
+    width: 600px;
+    height:600px;
+    margin-left: 30%;
+    
+    border-radius:10px 10px;
+    padding:10px 10px;
+    margin-top: 10px;
+    
+    }
+
+ 
+   /*second card form css*/
+  .main_cont .contact_data2 form {
+   padding: 10px;
+   padding-left:40px;
+   border: 03px solid #232526;
+   border-radius: 50px 0px;
+
+ }
+ 
+ .main_cont .contact_data2 form input,textarea {
+   width: 90%;
+   margin: 05px 0 0 10px;
+   padding: 07px 10px;
+   border: 1px solid #232526;
+   font-size: 1rem;
+   border-radius: 05px;
+
+
+ }
+ 
+ .main_cont .contact_data2 h2 {
+   margin: 1.5rem;
+   border-bottom: 0.2rem #232526;
+   font-size: 40px;
+   margin-left:20% ;
+ }
+ 
+ .main_cont .contact_data2 label {
+   display: block;
+   padding-top: 15px;
+   padding-left: 10px;
+ }
+ 
+ .main_cont .contact_data2 button {
+   margin: 20px 10px;
+   border: 1px solid #fff;
+   padding: 10px 20px;
+   background: #232526;
+   color:#fff;
+   font-size: 1rem;
+   border-radius: 23px;
+   cursor: pointer;
+   transition: all 0.3s;
+   font-family: 'Montserrat', sans-serif;
+   justify-content: center;
+   text-align: center;
+ }
+ 
+ .main_cont .contact_data2 button:hover {
+   background: #fff;
+   transition: 0.3s;
+   color: #232526;
+   border:1px solid   #232526;
+   background-color: gold;
+ }
+ 
+ /*end third card css*/
+
+
+ .map iframe{
+box-shadow:  0px 0px 10px 1px black;
+width:100%;
+height:400px;
+
+ 
+}
+ 
+/*contact main part start */
+
+@media screen and (max-width:768px){
+  .main_cont .first-part{
+   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
-  margin-top: 70px;*/
+
+  }
+
+  .main_cont .contact_data1{
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:20% 20%;
 
 
-  /*---- end navbar css ---*/
+  }
+.main_cont .img-part{
+  justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 30%;
+
+}
+
+
+.second-part{
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  height:auto;
+
+}
+
+.sociadMedia{
+  justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right:120px;
+  
+    
+}
+.main_cont .third-part{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  }
+  .main_cont .contact_data2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-right: 80px;
+    height: auto;
+  }
+
+  .main_cont .contact_data2 form {
+    padding: 10px;
+   
+    border: 03px solid #232526;
+    border-radius: 50px;
+ 
+  }
+
+
+  .main_cont .contact_data2 h2{
+    font-size: 20px;
+    margin-right:80px;
+  }
+}
+
+
+
+
+
+
+
