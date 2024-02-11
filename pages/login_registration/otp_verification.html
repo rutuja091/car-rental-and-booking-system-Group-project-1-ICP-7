@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verification</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/footer.css">
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 
-        html {
+        body {
             background: #232526;
             background: linear-gradient(to right, #494949, #232526);
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            text-align: center;
-            font-family: "Lato", sans-serif;
+
+            font-family: 'Montserrat', sans-serif;
         }
 
         section {
+            margin: 40px auto;
+            text-align: center;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: space-around;
-            width: 50vw;
-            min-width: 300px;
+            width: 300px;
             height: 65vh;
             background-color: white;
             border-radius: 12px;
@@ -35,7 +39,7 @@
         }
 
         section h2 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Montserrat', sans-serif;
             letter-spacing: 1px;
         }
 
@@ -80,10 +84,15 @@
             font-weight: bold;
         }
 
+        .footer {
+            width: 100%;
+        }
+
         @media screen and (max-width: 600px) {
             html {
                 font-size: small;
             }
+
 
             svg {
                 height: 150px;
@@ -98,7 +107,6 @@
 
 <body>
     <section>
-        <!-- <div class="title"><h1>OTP</h1></div> -->
         <svg width="250" height="200" viewBox="0 0 292 208" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_1_45)">
                 <path
@@ -156,8 +164,58 @@
             </div>
             <input type="submit" value="Submit" />
         </form>
-        <p> <a href="#">Resend Code</a></p>
+        <p class="text"> <a href="#">Resend Code</a></p>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4 style="font-family: copperplate gothic light;font-size: 30px;">Journeyjet</h4>
+                    <ul>
+                        <li style="color: white;">Welcome to our premier car rental website, <br>where your journey
+                            begins with
+                            convenience, <br> choice, and reliability</li>
+                    </ul>
+                </div>
+                <div>&emsp</div>
+                <div>&emsp</div>
+                <div class="footer-col" class="link">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about.html">About US</a></li>
+                        <li> <a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="index.html">Car Booking</a></li>
+                        <li><a href="about.html">Unlimited Miles Car Rental</a></li>
+                        <li> <a href="services.html">Mobile Phone Reservation</a></li>
+                        <li><a href="contact.html">One Way Car Rental</a></li>
+                    </ul>
+                </div>
+                <div>&emsp</div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>&nbsp</p>
+        <p>&nbsp</p>
+        <p>&nbsp</p>
+        <p class="copyright">
+            Copyright&copy;Journeyjet 2024
+        </p>
+    </footer>
 </body>
 
 </html>
