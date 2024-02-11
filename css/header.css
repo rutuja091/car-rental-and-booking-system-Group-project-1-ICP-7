@@ -17,11 +17,11 @@ body {
   width: 100%;
   background-color: #fff;
   position: fixed;
-  top: 2px;
-  left: 2px;
-  right: 2px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   z-index: 99;
-  box-shadow: 0 -5px 90px 10px #a3a3a3;
+  box-shadow: 0 -5px 10px 10px #a3a3a3;
   display: flex;
 
 }
@@ -134,10 +134,10 @@ body {
     background-color: #fff;
     box-shadow: 2px #a3a3a3;
     position: fixed;
-    top: 2px;
-    left: 2px;
-    right: 2px;
-    box-shadow: 0 -5px 90px 5px #a3a3a3;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0 -5px 10px 5px #a3a3a3;
 
   }
 
