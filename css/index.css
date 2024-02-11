@@ -158,6 +158,12 @@ body{
 }
 .box p{
     text-align: center;
+    font-weight: bolder;
+}
+.box span{
+    font-size: 30px;
+    font-weight: bolder;
+}
 }
 .box:hover{
     transform: scale(1.050);
