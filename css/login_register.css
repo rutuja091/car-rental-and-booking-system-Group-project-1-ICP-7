@@ -11,7 +11,6 @@
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,17 +27,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 70%;
   width: 100%;
   background: #fff;
   padding: 40px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  margin: 50px auto;
+  margin: 90px 0px;
 }
 
-.login-form-container {
-  width: 60%;
+.signup-container {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.login-container {
+  margin-top: 150px;
+  width: 50%;
   height: 80vh;
 }
 .form-container .cover {
@@ -74,7 +78,9 @@ body {
 .form-content .signup-form {
   width: calc(100% / 2 - 25px);
 }
-
+.form-content .signup-form {
+  padding: 0px 0px;
+}
 .login-title {
   position: absolute;
   top: -20px;
@@ -95,7 +101,7 @@ body {
   align-items: center;
   height: 50px;
   width: 80%;
-  margin: 10px 30px;
+  margin: 10px 10px;
   position: relative;
 }
 .form-content .input-box input {
@@ -124,11 +130,13 @@ body {
   padding-top: 10px;
   font-size: 14px;
   font-weight: 500;
+  margin: 0px 10px;
+
   color: #000;
 }
 
 .forms .form-content .text-accept-term {
-  margin: 0px 30px;
+  margin: 0px 10px;
 }
 .forms .form-content .text a {
   text-decoration: none;
@@ -173,6 +181,7 @@ body {
 .forms .form-content .login-text a,
 .forms .form-content .sign-up-text a {
   text-decoration: none;
+  text-align: center;
   color: #000;
 }
 footer {
@@ -193,17 +202,12 @@ footer {
     width: auto;
   }
   .forms .form-content .input-box input[type="submit"] {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 0px 20px;
   }
-  .login {
-    position: relative;
-    padding: 0px;
-    top: 80px;
-  }
-  .login-text {
-    position: relative;
-    top: 70px;
+  .forms .form-content .input-box .login input[type="submit"] {
+    margin-top: -50px;
+    padding: 0px 20px;
   }
 
   .forms .form-content .text-accept-term {
@@ -219,21 +223,27 @@ footer {
     display: none;
   }
   .form-container {
-
     padding: 30px;
   }
-  .login-form-container {
-    width: 100%;
+  .login-container {
+    width: 80%;
+    height: 80vh;
+  }
+  .signup-container {
+    width: 80%;
     height: 80vh;
   }
   .login-title {
     top: 0;
   }
   .login {
-    top: 0;
+    position: relative;
+    padding: 0px;
+    top: 50px;
   }
   .login-text {
-    top: 0;
+    position: relative;
+    top: 20px;
   }
   .forms .form-content .title {
     font-size: 30px;
