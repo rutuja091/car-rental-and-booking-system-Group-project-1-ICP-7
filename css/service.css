@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 
 
-@media(max-width:900px) {
+@media(max-width:668px) {
 
 
   .text {
@@ -28,7 +28,7 @@
   
   .service{
     text-align: center;
-    color:gold;
+    color:black;
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
     margin-top:80px;
@@ -36,7 +36,7 @@
   
   }
   .service:hover{
-    color:palevioletred;
+    color:gold;
     border-radius:2px;
   }
 
@@ -63,31 +63,6 @@
 
 }
 
-
-
-.btn {
-  font-size: 16px;
-  width: 163px;
-  height: 38px;
-  cursor: pointer;
-  transition: all .2s ease-in-out;
-  letter-spacing: 1px;
-  border: none;
-  border-radius: 23px;
-  margin-top:0px;
-  margin-bottom: 20px;
-}
-.btn {
-  color:#232526;
-  background:#fff;
- /* height: 60px;
-  width: 100px;  
-  border-radius:30%;*/
-}
- 
-.btn:hover {
-  transform: scale(1.1);
-}
 .img{
   
   border-radius:5px;
@@ -98,6 +73,7 @@
 }
 .heading{
   color:#fff;
+  margin-top:10px ;
 }
 .heading:hover{
   color:gold;
@@ -113,7 +89,34 @@
    margin-left:55px;
     margin-right:55px;
     color:#fff;
+    margin-top:3px;
    
+  }
+
+
+
+  .btn {
+    font-size: 16px;
+    width: 163px;
+    height: 38px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 23px;
+    margin-top:0px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    color:#232526;
+    background:#fff;
+   /* height: 60px;
+    width: 100px;  
+    border-radius:30%;*/
+  }
+   
+  .btn:hover {
+    transform: scale(1.1);
   }
 
 
