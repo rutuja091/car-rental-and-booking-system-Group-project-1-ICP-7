@@ -362,6 +362,12 @@ height: 15px;
   font-size: 28px;
   color: rgb(0, 0, 0);
 }
+.harshal-name{
+  margin-left: 230px;
+  margin-top: -250px;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
 .rutu-name{
   margin-left: 200px;
   margin-top: -270px;
@@ -466,6 +472,16 @@ height: 15px;
       color: rgb(0, 0, 0);
 
     }
+    .name {
+      margin-left: 130px;
+      margin-top: -170px;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    .siddhi-name{
+      margin-left: 130px;
+      margin-top: -150px;
+    }
     .social-icons{
       font-size: 10px;
       margin-left: 100px;
@@ -523,21 +539,21 @@ height: 15px;
     }
     
     .instruction-card-2-text {
+      display:flex;
+      flex-wrap: wrap;
       color: white;
       margin-top: 25px;
       text-align: center;
-      margin-left: 10px;
+      margin-left: 1%;
       margin-bottom: 30px;
-      width: 500px;
+      padding: 2px 20px;
       font-family: 'Montserrat', sans-serif;
       font-size: 15px;
     }
     
     .instruction-card-2-img {
-      justify-content: center;
-      align-items:  center;
-      margin-left: 80px;
-      width: 400px;
+      width: 100%;
+    margin-left: 20% ;
     }
     .background-car-img {
       justify-content: center;
