@@ -132,7 +132,7 @@ body{
 
 }
 /*-----------Nav-bar Responsive End----------*/
-.B{
+.heading{
     display: flex;
     margin-left: 50px;
     margin-top: 100px;
@@ -146,15 +146,15 @@ body{
 .p-head{
     font-size: 25px;
 }
- .a{
+ .service-dis-1{
    margin-left: 0px;
 } 
-.b{
+.service-dis-2{
   margin-left: 80px;
     text-align: left;
   
 }
-.div{
+.services-content{
   font-size: 20px;
   padding: 30px;
   justify-content: space-between;
@@ -166,7 +166,7 @@ body{
   
 }
 
-.div2{
+.services-content2{
   font-size: 20px;
   padding: 30px;
   justify-content: space-between;
@@ -176,47 +176,39 @@ body{
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
-.image-1{
-    justify-content: center;
-    align-items: center;
-    
-}
-.img1{
+
+.background-car-img{
     justify-content: center;
     align-items: center;
     margin-left: 32%;
     height:500px; 
-    width:600px;
+    /* width:600px; */
 }
-.img2{
+.instruction-caed-1-image{
    
-    width:700px;
+    /* width:700px; */
     height:400px;
    
 }
-.C{
+.instruction-caed-1{
     margin-top: 60px;
     margin-bottom: 60px;
-    width: 100;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin-left: 30px;
-    /* padding-top: 50px; */
     padding-bottom: 20px;
 
 }
 
-.text{
+.instruction-caed-1-head{
   width: 100%;
         font-family: 'Montserrat', sans-serif;
         font-size: 40px;
         margin-left: 100px;  
         margin-top: 70px;
 }
-.text p{
-
-}
-.p{
+.instruction-caed-1-p{
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -226,7 +218,7 @@ body{
   margin-left:-30px;
    
 }
-.te{
+.instruction-caed-1-content{
     position: absolute;
     left: 150px;
     padding-left: 750px;
@@ -237,6 +229,13 @@ body{
     font-size: 16px;
 
 }
+.questions{
+  margin-left: 20px;
+}
+.question-heading{
+  margin-left: 20px;
+  font-size: 40px;
+}
 .Que{
     width: 700px;
     font-size: 20px;
@@ -246,16 +245,13 @@ body{
 .Que p{
     padding: 20px;
 }
-.img3{
-    height: 500px;
-}
-.image{
+.images{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
 }
-.do{
+.instruction-card-2{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -267,7 +263,7 @@ body{
    height: 400px;
  
 }
-.text2{
+.instruction-card-2-head{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
@@ -276,14 +272,14 @@ body{
     text-align: center;
     
 }
-.te2{
+.instruction-card-2-text{
     color: white;
     margin-top: 170px;
     width: 300px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
-.img6{
+.instruction-card-2-img{
     position: absolute;
     right: 20px;
     height: 400px;
@@ -292,7 +288,7 @@ body{
 .team-member-card{
     width: 100% !important;
     max-width: none !important;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: 1;
     transition: all .7s ease-in;
     display: flex;
@@ -320,9 +316,6 @@ body{
 .container:hover{
     background-color: gold;
     
-}
-.photo{
-  
 }
 .harshal{
     height: 250px;
@@ -356,13 +349,6 @@ body{
     width: 170px;
     margin-top: 10px;
 }
-/* .container:hover{
-
-     transition: 1.5s;
-     margin-top: 2px;
-     box-shadow: 0 0 6px 3px rgb(65, 65, 64);
-} */
-
 .name{  margin-left: 270px;
     margin-top: -250px;
     font-size: 28px;
@@ -428,7 +414,7 @@ color: rgb(0, 0, 0);
 	box-sizing: border-box;
 }
 .container-2{
-	max-width: 1170px;
+	width: 100%;
 	margin:auto;
 }
 .row{
@@ -514,7 +500,10 @@ color: rgb(0, 0, 0);
 }
 }
 
-
+/* ---------------------------------Risponcive About Us-------------------------  */
+@media screen and (max-width:600px) {
+  
+}
 
 
 
