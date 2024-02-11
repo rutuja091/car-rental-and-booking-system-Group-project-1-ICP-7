@@ -10,17 +10,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #232526;
-  background: -webkit-linear-gradient(to right, #353535, #232526);
-  background: linear-gradient(to right, #494949, #232526);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .form-container {

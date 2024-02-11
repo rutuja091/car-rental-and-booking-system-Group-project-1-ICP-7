@@ -271,3 +271,25 @@ body{
     transform: scale(1.050);
     transition: 0.5s;
 }
+
+
+
+
+/* Footer @media !... */
+
+@media (max-width: 425px){
+    .footer{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap ;
+    }
+  }
+
+@media (max-width:1024px){
+    .footer-col{
+        width: 117%;
+        padding: 0 15px;
+    }
+}
+
+
