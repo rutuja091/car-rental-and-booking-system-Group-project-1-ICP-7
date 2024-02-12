@@ -197,7 +197,7 @@ body {
   align-items: center;
   margin-left: 32%;
   height: 500px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .journey{
   margin-left: 10px;
@@ -221,7 +221,7 @@ body {
   margin-top: 70px;
 }
 .instruction-caed-1-image{
-  border-radius: 2px;
+  border-radius: 4px;
 
 }
 
@@ -255,30 +255,13 @@ body {
   font-size: 40px;
 }
 
-.Que {
-  /* width: 700px; */
-  font-size: 20px;
-  /* margin-left: 600px; */
-  font-family: 'Montserrat', sans-serif;
-}
-
-.Que p {
-  padding: 10px;
-}
-
-.que-plus {
-height: 15px;
- position: absolute; 
-  right: 200px;
-}
-
 .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .instruction-card-2 {
@@ -313,7 +296,7 @@ height: 15px;
 .instruction-card-2-img {
   margin-left: 100px;
   width: 500px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 /* --------------------------Team Member Cards---------------------------------- */
 .team-member-card {
@@ -352,23 +335,23 @@ height: 15px;
 .photo{
   width: 170px;
   margin-top: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .harshal {
   height: 250px;
   margin-top: 30px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
  .se {
   width: 180px;
   margin-top: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .rutuja {
   width: 170px;
   margin-top: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
 } 
 .name {
   margin-left: 230px;
