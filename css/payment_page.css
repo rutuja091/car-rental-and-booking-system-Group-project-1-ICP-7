@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap");
 
+
+font-family: 'Montserrat', sans-serif;
+
 body {
+  /* font-size: 20px; */
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -24,7 +28,6 @@ body {
 }
 .panel-body {
   padding: 60px 50px 0;
-
   flex: 1;
 }
 
@@ -42,8 +45,8 @@ body {
   padding-top: 40px;
   justify-content: space-evenly;
   text-align: center;
-}
 
+}
 .method {
   display: flex;
   flex-direction: column;
