@@ -1,11 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap');
 
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .wholepagebackground{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(35, 35, 35);
+    margin-top: 100px;
 }
 .card{
     display: flex;
@@ -45,7 +51,16 @@ button{
     border: 2px black solid;
 }
 
+.butn a{
+    text-decoration: none;
+    color: white;
+}
+
 @media  screen and (max-width:768px) {
+
+    .wholepagebackground{
+        margin-top: 50px;
+    }
     .card{
         width:500px;
         margin-left: 5px;
