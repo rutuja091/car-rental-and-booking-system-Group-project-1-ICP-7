@@ -46,7 +46,10 @@ body {
   justify-content: space-evenly;
   text-align: center;
 
+
 }
+
+
 .method {
   display: flex;
   flex-direction: column;
@@ -67,8 +70,16 @@ body {
   width: 250px;
   padding-bottom: 20px;
   margin: 0px 5px;
-  background-color: #efefef;
+  background-color: #efefef; 
+
   border-radius: 10px;
+  box-shadow:0 0 1px 1px rgb(26, 25, 25);
+}
+.card-item:hover{
+  transform: scale(0.9);
+  transition: 0.5s;
+  background-color: gold;
+
 }
 .card-logos img {
   width: 50%;
