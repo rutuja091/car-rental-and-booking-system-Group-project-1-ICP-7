@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;500&display=swap");
 
-
-
 body {
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -191,11 +189,13 @@ input[type="password"]:focus {
 .btn:hover {
   transform: scale(1.1);
 }
+footer {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   /*  {
     font-size: 20px; */
-   
 
   .payment-panel {
     flex-direction: column;
