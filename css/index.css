@@ -8,8 +8,7 @@ body{
 .main-section{
     margin-left: 0;box-sizing: border-box;
     margin-top: 100px;
-   width: fit-content;
-   height: 100%;
+    height: 100%;
     border: solid 2px rgb(0, 34, 255);
     
 
@@ -23,23 +22,22 @@ body{
 .img-section{
     height: 800px;
     width: 100%;
-    
     display: flex;
-    flex-wrap: wrap;
- 
-
+}
+.text span{
+    font-size: 50px;
 }
 .img-section p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
+    
     
     font-weight: 900;
     
 
 }
 .img-section span{
-    font-size: 40px;
+   
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 
@@ -53,6 +51,7 @@ body{
     .yellow-taxi{
         height: 200px;
     }
+    
 }
 
 
@@ -114,6 +113,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+
+
 }
 .Book-btn:hover{
     transform: scale(0.9);
@@ -125,7 +127,7 @@ body{
     font-weight: 900;
 }
 
-}
+
 .desc{
     text-align: center;
     padding: 20px;
@@ -155,14 +157,16 @@ body{
     font-size: 10px;
 
     }
+  
+    
 }
 .box p{
     text-align: center;
     font-weight: bolder;
 }
 .box span{
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .box:hover{
@@ -220,7 +224,7 @@ body{
     width: 300px;
     background-color: rgba(255, 255, 255, 0.916);
     padding: 30px;
-    margin: 30px;
+    margin: 40px;
     border-radius: 5px;
    
 }
