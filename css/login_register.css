@@ -213,6 +213,11 @@ footer {
   .forms .form-content .text-accept-term {
     margin: 0px 0px;
   }
+  .forms .form-content .button .signup {
+    
+    margin-top: 10px;
+  }
+  
 }
 
 @media (max-width: 730px) {
@@ -231,7 +236,7 @@ footer {
   }
   .signup-container {
     width: 80%;
-    height: 80vh;
+    height: auto;
   }
   .login-title {
     top: 0;
@@ -260,6 +265,10 @@ footer {
   }
   .forms .form-content .login-form .input-box input[type="submit"] {
     margin-top: 80px;
+    padding: 0px 20px;
+  }
+  .forms .form-content .signup-form .input-box input[type="submit"] {
+    margin-top: 25px;
     padding: 0px 20px;
   }
   .forms .form-content .login-text {
