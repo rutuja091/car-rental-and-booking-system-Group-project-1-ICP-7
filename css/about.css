@@ -197,8 +197,15 @@ body {
   align-items: center;
   margin-left: 32%;
   height: 500px;
+  border-radius: 4px;
+}
+.journey{
+  margin-left: 10px;
+  font-size: 30px;
 }
 .instruction-caed-1 {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 60px;
   margin-bottom: 60px;
   font-family: 'Montserrat', sans-serif;
@@ -214,6 +221,7 @@ body {
   margin-top: 70px;
 }
 .instruction-caed-1-image{
+  border-radius: 4px;
 
 }
 
@@ -247,29 +255,13 @@ body {
   font-size: 40px;
 }
 
-.Que {
-  /* width: 700px; */
-  font-size: 20px;
-  /* margin-left: 600px; */
-  font-family: 'Montserrat', sans-serif;
-}
-
-.Que p {
-  padding: 10px;
-}
-
-.que-plus {
-height: 15px;
- position: absolute; 
-  right: 200px;
-}
-
 .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
+  border-radius: 4px;
 }
 
 .instruction-card-2 {
@@ -304,6 +296,7 @@ height: 15px;
 .instruction-card-2-img {
   margin-left: 100px;
   width: 500px;
+  border-radius: 4px;
 }
 /* --------------------------Team Member Cards---------------------------------- */
 .team-member-card {
@@ -342,19 +335,23 @@ height: 15px;
 .photo{
   width: 170px;
   margin-top: 10px;
+  border-radius: 4px;
 }
 .harshal {
   height: 250px;
   margin-top: 30px;
+  border-radius: 4px;
 }
  .se {
   width: 180px;
   margin-top: 10px;
+  border-radius: 4px;
 }
 
 .rutuja {
   width: 170px;
   margin-top: 10px;
+  border-radius: 4px;
 } 
 .name {
   margin-left: 230px;
@@ -633,8 +630,29 @@ height: 15px;
       margin-left: 30%;
       height: 350px;
   }
-  .services-content{
-    margin-left: 0px;
+  .images {
+     
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin: 20px 20px;
+  }
+  .img2{
+    height: 300px;
+    width: 340px;
+    margin-bottom: 20px;
+  }
+  .img3{
+    margin: 20px 20px;
+  }
+  .service-dis-2 {
+    margin-left: 15%;
+    text-align: left;
+  
+  }
+  .service-dis-1{
+    margin-left: 0;
+    text-align: left;
   }
   .instruction-caed-1 {
     margin-top: 60px;
@@ -652,7 +670,7 @@ height: 15px;
     margin-top: 70px;
   }
   .instruction-caed-1-image{
-    margin-left: 20%;
+    margin-left: 10%;
   
   }
   
@@ -717,7 +735,55 @@ height: 15px;
   
   /* Portrait tablets and mobile devices */
 }
+/* --------------------------------------------------------------------- */
+@media  screen and (min-width:768px) and (max-width:992px){
 
+  .instruction-caed-1-image{
+    margin-left: 28%;
+  
+  }
+  .img2{
+    margin-bottom: 10px
+  }
+  .img3{
+    margin: 20px
+  }
+  .instruction-card-2-img{
+    margin-top: 28px;
+    margin-left: 32%;
+  }
+  .instruction-card-2-text{
+    margin-left: 35%;
+    text-align: center
+  }
+  .instruction-card-2-head{
+    margin-left: 40%
+  }
+  .services-content{
+    margin-left: -20px;
+  }
+  .service-dis-2{
+    margin-left: -30px;
+  }
+  
+
+
+
+}
+/* ----------------------------------------------------------------- */
+@media  screen and (min-width:992px) and (max-width:1204px){
+
+.services-content{
+  margin-left: -10px;
+}
+.service-dis-2{
+  margin-left: -10px;
+}
+.img2{
+  margin-left: 5%;
+  margin-bottom: 9px;
+}
+}
 /* --------------footer css------------------- */
 
 
