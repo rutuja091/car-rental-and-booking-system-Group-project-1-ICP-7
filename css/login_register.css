@@ -37,12 +37,12 @@ body {
 
 .signup-container {
   margin-top: 150px;
-  width: 100%;
+  width: 80%;
 }
 
 .login-container {
   margin-top: 150px;
-  width: 50%;
+  width: 60%;
   height: 80vh;
 }
 .form-container .cover {
@@ -100,7 +100,7 @@ body {
   display: flex;
   align-items: center;
   height: 50px;
-  width: 80%;
+  /* width: 80%; */
   margin: 10px 10px;
   position: relative;
 }
@@ -184,6 +184,9 @@ body {
   text-align: center;
   color: #000;
 }
+.forms .form-content .text-accept-term {
+  padding-right: 30px;
+}
 footer {
   width: 100%;
 }
@@ -214,16 +217,11 @@ footer {
     margin: 0px 0px;
   }
   .forms .form-content .button .signup {
-    
     margin-top: 10px;
   }
-  
 }
 
 @media (max-width: 730px) {
-  * {
-    font-size: small;
-  }
   .form-container .cover {
     display: none;
   }
